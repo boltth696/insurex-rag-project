@@ -13,6 +13,7 @@ Tested with Python **3.12**. Install it if needed; the ZIP contains neither a vi
 1. Extract `insurex-rag.zip` completely.
 2. Open the extracted `insurex-rag` folder in File Explorer. Click the address bar, type `powershell`, and press Enter to open PowerShell in that folder.
 3. Create the environment and install the tested dependency versions:
+4. py -3.12 -m venv. venv is just an example use -py with your version of python!
 
 ```powershell
 py -3.12 -m venv .venv
