@@ -1,0 +1,134 @@
+{
+  "embedding_model": "text-embedding-3-small",
+  "files": [
+    {
+      "file": "02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf",
+      "sha256": "50516aabe8bc37eee79ef015761ec6a1e8bd51623c2393b5c0e21fc176f86dfc",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1245,
+          "thai_characters": 1164,
+          "legacy_thai_characters_normalized": 85
+        },
+        {
+          "page": 2,
+          "characters": 2554,
+          "thai_characters": 1823,
+          "legacy_thai_characters_normalized": 110
+        },
+        {
+          "page": 3,
+          "characters": 2237,
+          "thai_characters": 1867,
+          "legacy_thai_characters_normalized": 83
+        }
+      ]
+    },
+    {
+      "file": "05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf",
+      "sha256": "41de0ca2c220ba3b715b7f8f20959137ae4328ce61cbe1bae5a77d0f9d76e67f",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1130,
+          "thai_characters": 1022,
+          "legacy_thai_characters_normalized": 72
+        },
+        {
+          "page": 2,
+          "characters": 1466,
+          "thai_characters": 1056,
+          "legacy_thai_characters_normalized": 78
+        },
+        {
+          "page": 3,
+          "characters": 1001,
+          "thai_characters": 680,
+          "legacy_thai_characters_normalized": 41
+        },
+        {
+          "page": 4,
+          "characters": 1420,
+          "thai_characters": 1074,
+          "legacy_thai_characters_normalized": 54
+        }
+      ]
+    },
+    {
+      "file": "07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf",
+      "sha256": "1f7b8572bc287fd5e236fdc5a95902961bc28c4d9f0859fb55eeed6f8f2c3bf2",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1418,
+          "thai_characters": 1331,
+          "legacy_thai_characters_normalized": 116
+        },
+        {
+          "page": 2,
+          "characters": 680,
+          "thai_characters": 527,
+          "legacy_thai_characters_normalized": 45
+        },
+        {
+          "page": 3,
+          "characters": 4846,
+          "thai_characters": 3520,
+          "legacy_thai_characters_normalized": 265
+        },
+        {
+          "page": 4,
+          "characters": 6314,
+          "thai_characters": 5583,
+          "legacy_thai_characters_normalized": 351
+        }
+      ]
+    },
+    {
+      "file": "09_SCB-InsureX_Khum-Aomsook_25-15_180669.pdf",
+      "sha256": "547765886207343125dc741479b855c9c74f59c4ab322849c0c9382ecc6cd0b8",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 915,
+          "thai_characters": 833,
+          "legacy_thai_characters_normalized": 64
+        },
+        {
+          "page": 2,
+          "characters": 2662,
+          "thai_characters": 1959,
+          "legacy_thai_characters_normalized": 109
+        }
+      ]
+    },
+    {
+      "file": "11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf",
+      "sha256": "8eb0fae1684401ed50e3997087e330059d2350f3481119771460224579c62710",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 2972,
+          "thai_characters": 2669,
+          "legacy_thai_characters_normalized": 184
+        },
+        {
+          "page": 2,
+          "characters": 3177,
+          "thai_characters": 2397,
+          "legacy_thai_characters_normalized": 154
+        },
+        {
+          "page": 3,
+          "characters": 4272,
+          "thai_characters": 3405,
+          "legacy_thai_characters_normalized": 191
+        }
+      ]
+    }
+  ],
+  "chunks": 50,
+  "index_file": "9f54e86f30ff4eec9c369c134691ba19.faiss",
+  "documents_file": "9f54e86f30ff4eec9c369c134691ba19.json"
+}

@@ -1,0 +1,18 @@
+[
+  {"id":"start","setup":[],"question":"I want insurance but don’t know where to start.","expected":"Ask for age, budget and goal; no automatic catalog dump."},
+  {"id":"monthly_budget","setup":[],"question":"I can only pay 1,500 a month. What are my options?","expected":"Remember monthly budget; ask missing age and goal; no confirmed budget fit."},
+  {"id":"missed_payment","setup":[],"question":"I freelance, so some months I earn less. What happens if I miss a payment?","expected":"Ask policy; do not invent grace/lapse rules or promise coverage continues."},
+  {"id":"family","setup":[],"question":"I have two children. I want them to have money if something happens to me.","expected":"Recognize family protection; clarify incident/needs and ask missing age/budget; no guaranteed all-event coverage."},
+  {"id":"employer_cover","setup":[],"question":"My company already pays for hospital bills. Do I need more insurance?","expected":"Recognize existing cover; explain checking limits/gaps; no automatic need to buy more."},
+  {"id":"hospital_room","setup":[],"question":"Will it cover a private hospital and a single room?","expected":"Ask product/plan and explain limits/deductibles; no universal full-room promise."},
+  {"id":"cancer","setup":[],"question":"If I get cancer, do I receive cash or reimbursement?","expected":"Distinguish conditional lump-sum and medical reimbursement benefits; ask product/stage."},
+  {"id":"diabetes","setup":[],"question":"I already have diabetes. Can I apply?","expected":"No guaranteed acceptance/rejection/diabetes coverage; explain health declaration and underwriting."},
+  {"id":"waiting","setup":[],"question":"If I buy today and get sick next month, can I claim?","expected":"No claim guarantee; ask product, illness and coverage start; mention waiting periods/exclusions."},
+  {"id":"exclusions","setup":[],"question":"What situations won’t this insurance pay for?","expected":"Ask product/rider; no universal exclusion list."},
+  {"id":"payment_end","setup":[],"question":"After paying for ten years, does my protection stop?","expected":"Distinguish payment term from coverage term; clarify product and rider conditions."},
+  {"id":"cancellation","setup":[],"question":"Can I cancel after two years? How much money would I get back?","expected":"No invented refund or full-premium guarantee; ask product and value schedule."},
+  {"id":"changed_goal","setup":["I am 22, have a budget of 50000 baht a year, and want savings insurance."],"question":"Actually, forget savings. I mainly want medical coverage.","expected":"Replace savings goal with health rider candidate; preserve age/budget; affordability unverified."},
+  {"id":"changed_budget","setup":["I am 22, have a budget of 50000 baht a year, and want help paying hospital bills."],"question":"That’s too much. My budget is now 20,000 a year.","followup":"What age, budget and goal have I told you?","expected":"Preserve medical goal/age; change budget to 20000; no affordability guarantee."},
+  {"id":"casual","setup":[],"question":"im 22 need hosp cover cheap pls","expected":"Understand medical goal and age despite shorthand; ask actual budget; no cheap-price guarantee."},
+  {"id":"thai","setup":[],"question":"อายุ 22 งบเดือนละ 1,500 อยากได้ประกันสุขภาพ มีแบบไหนบ้าง","expected":"Answer in Thai; health candidate, age22/monthly1500 retained; no budget-fit guarantee."}
+]

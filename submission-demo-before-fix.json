@@ -1,0 +1,407 @@
+{
+  "recorded_at": "2026-10-04T09:28:23.450470+07:00",
+  "mode": "live",
+  "chat_model": "gpt-4.1-mini",
+  "synthetic_data_only": true,
+  "storage": "temporary isolated SQLite; removed after the run",
+  "records": [
+    {
+      "label": "All five brochures",
+      "session": "demo-catalog",
+      "question": "What products are available?",
+      "answer": "The supplied brochures describe these 5 product families:\n\n1. Khum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1]\n\n2. Khum Bamnan / คุ้มบำนาญ (85/55, 85/60, 85/65): Pension insurance. Coverage: until age 85. Premium payments: 85/55: until age 55; 85/60: until age 60; 85/65: until age 65. [2]\n\n3. Khum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [3]\n\n4. Khum Aomsook / คุ้มออมสุข (25/15): Savings insurance. Coverage: 25 years. Premium payments: 15 years, depending on the variant. [4]\n\n5. Khum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [5]\n\n\nSources:\n\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, pages 1, 3\n\n[2] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, pages 1, 4\n\n[3] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, pages 1, 4\n\n[4] 09_SCB-InsureX_Khum-Aomsook_25-15_180669.pdf, pages 1, 2\n\n[5] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, pages 1, 3",
+      "nodes": [
+        "rewrite",
+        "catalog_answer"
+      ],
+      "mode": "catalog_list",
+      "issues": []
+    },
+    {
+      "label": "Shortest fixed premium period",
+      "session": "demo-catalog",
+      "question": "Which product has the shortest premium-payment period?",
+      "answer": "The shortest fixed premium-payment option is คุ้มตลอดชีพ ซีไอ พลัส 90/5: 5 years.\n\nThe supplied brochures describe these 5 product families:\n\n1. Khum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1]\n\n2. Khum Bamnan / คุ้มบำนาญ (85/55, 85/60, 85/65): Pension insurance. Coverage: until age 85. Premium payments: 85/55: until age 55; 85/60: until age 60; 85/65: until age 65. [2]\n\n3. Khum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [3]\n\n4. Khum Aomsook / คุ้มออมสุข (25/15): Savings insurance. Coverage: 25 years. Premium payments: 15 years, depending on the variant. [4]\n\n5. Khum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [5]\n\n\nSources:\n\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, pages 1, 3\n\n[2] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, pages 1, 4\n\n[3] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, pages 1, 4\n\n[4] 09_SCB-InsureX_Khum-Aomsook_25-15_180669.pdf, pages 1, 2\n\n[5] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, pages 1, 3\n\nThis ranks fixed payment-year options only. Pension payment durations depend on your entry age; the health rider has no stated fixed payment-year period. These are not ranked as fixed-year plans.",
+      "nodes": [
+        "rewrite",
+        "catalog_answer"
+      ],
+      "mode": "payment_rank",
+      "issues": []
+    },
+    {
+      "label": "Customer A life goal",
+      "session": "demo-a",
+      "question": "I am a frugal customer, age 22. Annual insurance budget 20000 THB. I want my family to receive money if I die. No existing insurance.",
+      "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nFor money to your family on death, compare death benefits and the amount your dependents need. This does not establish payment for every unexpected event.\nYou said you have no existing insurance.\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\n\nKhum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [14] [15] [16]\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+      "nodes": [
+        "rewrite",
+        "retrieve",
+        "recommend"
+      ],
+      "mode": "recommendation",
+      "issues": []
+    },
+    {
+      "label": "Customer B medical goal",
+      "session": "demo-b",
+      "question": "I am age 45. Annual insurance budget 60000 THB. I want help paying hospital bills. No existing insurance.",
+      "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+      "nodes": [
+        "rewrite",
+        "retrieve",
+        "recommend"
+      ],
+      "mode": "recommendation",
+      "issues": []
+    },
+    {
+      "label": "Customer A recall stays separate",
+      "session": "demo-a",
+      "question": "What age, annual budget and goal have I told you?",
+      "answer": "From what you told me:\n\n- Age: age 22\n- Premium budget: Annual insurance budget 20000 THB\n- Latest goal: I want my family to receive money if I die",
+      "nodes": [
+        "rewrite",
+        "recommend"
+      ],
+      "mode": "profile_recall",
+      "issues": []
+    },
+    {
+      "label": "Explicit interest activates tooling",
+      "session": "demo-a",
+      "question": "I am interested in Khum Cheeva.",
+      "answer": "Lead collection: please provide your name, occupation, income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+      "nodes": [
+        "rewrite",
+        "collect_lead"
+      ],
+      "mode": "lead_interest",
+      "issues": []
+    },
+    {
+      "label": "Collect only supplied fields",
+      "session": "demo-a",
+      "question": "My name is Demo Alex. I am a student. My income is 20,000 THB per month. My insurance budget is 20000 THB per year.",
+      "answer": "Lead collection: please provide your contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+      "nodes": [
+        "rewrite",
+        "collect_lead"
+      ],
+      "mode": "lead_interest",
+      "issues": []
+    },
+    {
+      "label": "Independent process restores draft",
+      "session": "demo-a",
+      "observed": {
+        "history": [
+          [
+            "user",
+            "I am a frugal customer, age 22. Annual insurance budget 20000 THB. I want my family to receive money if I die. No existing insurance."
+          ],
+          [
+            "assistant",
+            "Candidates to compare for your stated goal; affordability is not yet verified:\nFor money to your family on death, compare death benefits and the amount your dependents need. This does not establish payment for every unexpected event.\nYou said you have no existing insurance.\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\n\nKhum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [14] [15] [16]\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3"
+          ],
+          [
+            "user",
+            "What age, annual budget and goal have I told you?"
+          ],
+          [
+            "assistant",
+            "From what you told me:\n\n- Age: age 22\n- Premium budget: Annual insurance budget 20000 THB\n- Latest goal: I want my family to receive money if I die"
+          ],
+          [
+            "user",
+            "I am interested in Khum Cheeva."
+          ],
+          [
+            "assistant",
+            "Lead collection: please provide your name, occupation, income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel."
+          ],
+          [
+            "user",
+            "My name is Demo Alex. I am a student. My income is 20,000 THB per month. My insurance budget is 20000 THB per year."
+          ],
+          [
+            "assistant",
+            "Lead collection: please provide your contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel."
+          ]
+        ],
+        "profile": {
+          "goals": [
+            "life"
+          ],
+          "goal_quote": "I want my family to receive money if I die",
+          "goal_is_specific": true,
+          "ambiguous_segment": false,
+          "segment": "cost_sensitive",
+          "segment_quote": "I am a frugal customer",
+          "age_quote": "age 22",
+          "budget_quote": "Annual insurance budget 20000 THB",
+          "benefit_quote": "",
+          "existing_coverage_quote": "No existing insurance",
+          "coverage_status": "none",
+          "new_customer_quote": "",
+          "question_focus": "general",
+          "focus_quote": "",
+          "missing_details": []
+        },
+        "lead_active": true,
+        "lead_draft": {
+          "product_id": "cheeva",
+          "product_quote": "Khum Cheeva",
+          "name": {
+            "value": "Demo Alex",
+            "quote": "My name is Demo Alex"
+          },
+          "occupation": {
+            "value": "student",
+            "quote": "I am a student"
+          },
+          "income": {
+            "value": "20,000 THB per month",
+            "quote": "My income is 20,000 THB per month"
+          }
+        }
+      },
+      "issues": []
+    },
+    {
+      "label": "Factual interruption preserves draft",
+      "session": "demo-a",
+      "question": "For Khum Cheeva, how many years do I pay the base-policy premiums?",
+      "answer": "For the Khum Cheeva (คุ้มชีวา) 90/10 plan, the base-policy premiums are paid for 10 years.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3",
+      "nodes": [
+        "rewrite",
+        "collect_lead",
+        "retrieve",
+        "answer"
+      ],
+      "mode": "single",
+      "issues": []
+    },
+    {
+      "label": "Invalid phone does not save",
+      "session": "demo-a",
+      "question": "My contact number is 123.",
+      "answer": "Please check your contact number and resend it (8–15 digits).",
+      "nodes": [
+        "rewrite",
+        "collect_lead"
+      ],
+      "mode": "lead_interest",
+      "issues": []
+    },
+    {
+      "label": "Incomplete lead is absent from SQLite",
+      "session": "demo-a",
+      "observed": [],
+      "issues": []
+    },
+    {
+      "label": "Complete lead is saved",
+      "session": "demo-a",
+      "question": "My contact number is 0800000000.",
+      "answer": "Your lead details have been saved to the local database. This records your interest; it is not an insurance application or confirmation of coverage.",
+      "nodes": [
+        "rewrite",
+        "collect_lead"
+      ],
+      "mode": "lead_interest",
+      "issues": []
+    },
+    {
+      "label": "Structured SQLite record matches customer",
+      "session": "demo-a",
+      "observed": [
+        {
+          "lead_id": "27600701-ec05-55f4-becb-c2bee6b0eba8",
+          "session_id": "demo-a",
+          "product_id": "cheeva",
+          "name": "Demo Alex",
+          "occupation": "student",
+          "income": "20,000 THB per month",
+          "contact_number": "0800000000",
+          "evidence": {
+            "name": "My name is Demo Alex",
+            "occupation": "I am a student",
+            "income": "My income is 20,000 THB per month",
+            "contact_number": "My contact number is 0800000000",
+            "product": "Khum Cheeva"
+          }
+        }
+      ],
+      "issues": []
+    },
+    {
+      "label": "Customer B remains independent",
+      "session": "demo-b",
+      "question": "What age, annual budget and protection goal have I told you?",
+      "answer": "From what you told me:\n\n- Age: I am age 45\n- Premium budget: Annual insurance budget 60000 THB\n- Latest goal: I want help paying hospital bills",
+      "nodes": [
+        "rewrite",
+        "recommend"
+      ],
+      "mode": "profile_recall",
+      "issues": []
+    },
+    {
+      "label": "Thai product interest",
+      "session": "demo-thai",
+      "question": "สนใจคุ้มออมสุขค่ะ",
+      "answer": "เข้าสู่โหมดเก็บข้อมูลผู้สนใจ กรุณาระบุ ชื่อ, อาชีพ, รายได้ พร้อมสกุลเงินและระบุรายเดือนหรือรายปี, เบอร์ติดต่อ เพื่อบันทึกในฐานข้อมูลภายใน พิมพ์ /cancel-lead เพื่อยกเลิก",
+      "nodes": [
+        "rewrite",
+        "collect_lead"
+      ],
+      "mode": "lead_interest",
+      "issues": []
+    },
+    {
+      "label": "Thai structured lead",
+      "session": "demo-thai",
+      "question": "ชื่อ เดโมบี อาชีพ ครู รายได้ 30000 บาทต่อเดือน เบอร์ติดต่อ 0811111111",
+      "answer": "บันทึกข้อมูลผู้สนใจในฐานข้อมูลภายในแล้ว การบันทึกนี้ไม่ใช่การสมัครหรือยืนยันรับประกันภัย",
+      "nodes": [
+        "rewrite",
+        "collect_lead"
+      ],
+      "mode": "lead_interest",
+      "issues": []
+    },
+    {
+      "label": "Thai record is separate",
+      "session": "demo-thai",
+      "observed": [
+        {
+          "lead_id": "3780f38e-8e92-505c-ba16-673252868240",
+          "session_id": "demo-thai",
+          "product_id": "aomsook",
+          "name": "เดโมบี",
+          "occupation": "ครู",
+          "income": "30000 บาทต่อเดือน",
+          "contact_number": "0811111111",
+          "evidence": {
+            "name": "ชื่อ เดโมบี",
+            "occupation": "อาชีพ ครู",
+            "income": "รายได้ 30000 บาทต่อเดือน",
+            "contact_number": "เบอร์ติดต่อ 0811111111",
+            "product": "คุ้มออมสุข"
+          }
+        }
+      ],
+      "issues": []
+    },
+    {
+      "label": "Start incomplete lead",
+      "session": "demo-cancel",
+      "question": "I am interested in Khum Talodcheep CI Plus.",
+      "answer": "Lead collection: please provide your name, occupation, income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+      "nodes": [
+        "rewrite",
+        "collect_lead"
+      ],
+      "mode": "lead_interest",
+      "issues": []
+    },
+    {
+      "label": "Cancel without saving",
+      "session": "demo-cancel",
+      "question": "/cancel-lead",
+      "answer": "Lead collection cancelled. Incomplete details were not saved.",
+      "nodes": [
+        "rewrite",
+        "collect_lead"
+      ],
+      "mode": "lead_interest",
+      "issues": []
+    },
+    {
+      "label": "Cancelled lead is absent from SQLite",
+      "session": "demo-cancel",
+      "observed": [],
+      "issues": []
+    },
+    {
+      "label": "Detailed critical illness comparison",
+      "session": "demo-rag",
+      "question": "What is the difference between the critical illness protection in Khum Cheeva and Khum Talodcheep CI Plus?",
+      "answer": "The critical illness protection in Khum Cheeva (คุ้มชีวา) and Khum Talodcheep CI Plus (คุ้มตลอดชีพ ซีไอ พลัส) differ primarily in coverage scope, benefit structure, and premium payment terms. Khum Cheeva is a whole life insurance policy with mandatory attachment of eligible riders for additional coverage, including a critical illness rider called CI 50, which covers 50 critical illnesses but does not specify the exact illnesses in the brochure. The CI 50 rider benefits may be paid before age 85 and include early and severe stages with different payout amounts. The base policy coverage lasts until age 90 with a 10-year premium payment term, but rider premiums may vary with age and other factors, and the brochure does not specify if rider premiums stop after 10 years. Khum Cheeva requires attaching eligible riders with minimum sums insured depending on the base sum insured, and CI 50 is one selectable rider choice, not automatically included. (Sources: [1],[2],[3])\n\nKhum Talodcheep CI Plus integrates life and critical illness coverage in one policy, covering 15 specified severe critical illnesses and 4 specified early-stage illnesses. It pays 25% of the sum insured upon diagnosis of one of the 4 early-stage illnesses, waives further premiums, and continues coverage. For the 15 severe illnesses, it pays 100% of the sum insured or premiums paid (whichever is greater) minus any early-stage benefits already paid. The policy offers flexible premium payment terms of 5, 10, or 20 years, with coverage until age 90. It includes a 90-day waiting period for critical illness coverage and specific exclusions. The policy terminates after full payout of the severe illness benefit. (Sources: [4],[5],[6])\n\nIn summary, Khum Cheeva requires separate critical illness riders with variable terms and covers a broader but unspecified set of 50 illnesses, while Khum Talodcheep CI Plus provides integrated life and critical illness coverage with defined illness lists, staged benefits, premium waiver on early-stage illness, and flexible premium payment durations.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[4] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[5] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[6] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+      "nodes": [
+        "rewrite",
+        "retrieve",
+        "answer"
+      ],
+      "mode": "single",
+      "issues": []
+    },
+    {
+      "label": "Health rider dependency",
+      "session": "demo-rag",
+      "question": "Does Khum Raksa Maojai Extra need an eligible base life policy?",
+      "answer": "Yes, Khum Raksa Maojai Extra (คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า) is a health insurance rider that requires attachment to a base life insurance policy. It is a supplementary health coverage product provided by บริษัท เอฟดับบลิวดี ประกันชีวิต จำกัด (มหาชน) and is not a standalone policy. This is indicated by the description that it is a \"สัญญาเพิ่มเติมการประกันภัยสุขภาพ\" (health insurance rider) and the coverage duration is linked to the base life policy's coverage term or until age 99, whichever is earlier.\n\nSources:\n[4] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+      "nodes": [
+        "rewrite",
+        "retrieve",
+        "answer"
+      ],
+      "mode": "single",
+      "issues": []
+    },
+    {
+      "label": "Savings coverage and payment separation",
+      "session": "demo-rag",
+      "question": "For Khum Aomsook 25/15, what are the coverage and premium-payment periods?",
+      "answer": "Verified plan terms:\n\n1. Khum Aomsook / คุ้มออมสุข (25/15): Savings insurance. Coverage: 25 years. Premium payments: 15 years, depending on the variant. [1]\n\n\nSources:\n\n[1] 09_SCB-InsureX_Khum-Aomsook_25-15_180669.pdf, pages 1, 2",
+      "nodes": [
+        "rewrite",
+        "catalog_answer"
+      ],
+      "mode": "catalog_fact",
+      "issues": []
+    },
+    {
+      "label": "Pension duration uses entry age",
+      "session": "demo-rag",
+      "question": "For Khum Bamnan 85/55, does everyone pay premiums for exactly 10 years?",
+      "answer": "Verified plan terms:\n\n1. Khum Bamnan / คุ้มบำนาญ (85/55, 85/60, 85/65): Pension insurance. Coverage: until age 85. Premium payments: 85/55: until age 55; 85/60: until age 60; 85/65: until age 65. [1]\n\n\nSources:\n\n[1] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, pages 1, 4",
+      "nodes": [
+        "rewrite",
+        "catalog_answer"
+      ],
+      "mode": "catalog_fact",
+      "issues": []
+    },
+    {
+      "label": "Missing product evidence",
+      "session": "demo-unknown",
+      "question": "What does the nonexistent product Demo Unicorn 123 cover?",
+      "answer": "There is no information in the provided documents about a product named Demo Unicorn 123. Please provide a correct product name or additional details for assistance.",
+      "nodes": [
+        "rewrite",
+        "retrieve",
+        "answer"
+      ],
+      "mode": "single",
+      "issues": []
+    },
+    {
+      "label": "Saved session IDs are separate",
+      "session": "all",
+      "observed": [
+        "demo-a",
+        "demo-b",
+        "demo-cancel",
+        "demo-catalog",
+        "demo-rag",
+        "demo-thai",
+        "demo-unknown"
+      ],
+      "issues": []
+    }
+  ],
+  "passed": 26,
+  "total": 26
+}

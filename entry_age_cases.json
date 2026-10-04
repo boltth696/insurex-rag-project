@@ -1,0 +1,8 @@
+{
+ "older_life":[{"q":"I'm 87, budget 50000 per year. I want money for my family if I die. No other insurance. What would you recommend?","contains":["outside","None of the goal-matched"],"source_prefixes":["02_SCB","11_SCB"]}],
+ "older_ci":[{"q":"I am 65, yearly budget 50000, want a lump sum for serious illness. No insurance now. What are my options?","contains":["outside","CI Plus","Cheeva"],"absent":["CI Plus / คุ้มตลอดชีพ"]}],
+ "older_retirement":[{"q":"Age 65, annual budget 50000, main goal retirement. No existing policies. Recommend something.","contains":["outside","None of the goal-matched"],"source_prefixes":["05_SCB"]}],
+ "child_health":[{"q":"My child is age 8. Annual budget 50000, main goal hospital bills, no existing insurance. Which product would you suggest?","contains":["outside","11–75","None of the goal-matched"],"source_prefixes":["07_SCB"]}],
+ "ci_age57":[{"q":"Age 57, 50000 annually, need critical illness cash. No insurance. Recommend options.","contains":["90/5, 90/10","within the published"],"absent":["Premium payments: 5, 10, 20 years"]}],
+ "pension_age57":[{"q":"Age 57, annual premium budget 50000, main goal retirement. No other insurance. What would you suggest?","contains":["85/65","only these"],"absent":["85/55: until age 55"]}]
+}

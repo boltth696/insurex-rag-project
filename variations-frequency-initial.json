@@ -1,0 +1,368 @@
+[
+  {
+    "case": "missing_period",
+    "turn": 1,
+    "question": "I'm 22. Insurance budget 20000. I need help paying hospital bills. I have no insurance now.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nPlease provide: whether your stated budget is monthly or annual.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "I need help paying hospital bills",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I'm 22",
+      "budget_quote": "Insurance budget 20000",
+      "benefit_quote": "",
+      "existing_coverage_quote": "I have no insurance now",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "budget_frequency"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "missing_period",
+    "turn": 2,
+    "question": "That is 20000 per year, not monthly. Same customer.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "I need help paying hospital bills.",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I'm 22",
+      "budget_quote": "That is 20000 per year, not monthly.",
+      "benefit_quote": "",
+      "existing_coverage_quote": "I have no insurance now.",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "missing_period",
+    "turn": 3,
+    "question": "What age, budget and goal do you remember?",
+    "answer": "From what you told me:\n\n- Age: I'm 22\n- Premium budget: That is 20000 per year, not monthly.\n- Latest goal: I need help paying hospital bills.",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "I need help paying hospital bills.",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I'm 22",
+      "budget_quote": "That is 20000 per year, not monthly.",
+      "benefit_quote": "",
+      "existing_coverage_quote": "I have no insurance now.",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "frequency_change",
+    "turn": 1,
+    "question": "Age 22, 20000 per year for hospital cover. No insurance.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "hospital cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "20000 per year",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "frequency_change",
+    "turn": 2,
+    "question": "Change it to 1000 per month, and keep my age and goal.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "price_rank",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "hospital cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "1000 per month",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "frequency_change",
+    "turn": 3,
+    "question": "Recall my age and budget.",
+    "answer": "From what you told me:\n\n- Age: Age 22\n- Premium budget: 1000 per month\n- Latest goal: hospital cover",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "hospital cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "1000 per month",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "negated_switch",
+    "turn": 1,
+    "question": "Age 22, annual budget 20000, medical bills, no insurance.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "medical bills",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "annual budget 20000",
+      "benefit_quote": "",
+      "existing_coverage_quote": "no insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "negated_switch",
+    "turn": 2,
+    "question": "This is not a new customer. Same customer, budget changed to 1500 monthly.",
+    "answer": "From what you told me:\n\n- Age: Age 22\n- Premium budget: budget changed to 1500 monthly\n- Latest goal: medical bills",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "medical bills",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "budget changed to 1500 monthly",
+      "benefit_quote": "",
+      "existing_coverage_quote": "no insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "negated_cancel",
+    "turn": 1,
+    "question": "I am interested in Khum Cheeva. Name Test Eta, occupation teacher, income 30000 monthly.",
+    "answer": "Lead collection: please provide your contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva",
+      "name": {
+        "value": "Test Eta",
+        "quote": "Name Test Eta"
+      },
+      "occupation": {
+        "value": "teacher",
+        "quote": "occupation teacher"
+      },
+      "income": {
+        "value": "30000 monthly",
+        "quote": "income 30000 monthly"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "negated_cancel",
+    "turn": 2,
+    "question": "Do not stop collecting my details. What else do you need?",
+    "answer": "Lead collection: please provide your contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva",
+      "name": {
+        "value": "Test Eta",
+        "quote": "Name Test Eta"
+      },
+      "occupation": {
+        "value": "teacher",
+        "quote": "occupation teacher"
+      },
+      "income": {
+        "value": "30000 monthly",
+        "quote": "income 30000 monthly"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "negated_cancel",
+    "turn": 3,
+    "question": "My contact number is 0800000005.",
+    "answer": "Your lead details have been saved to the local database. This records your interest; it is not an insurance application or confirmation of coverage.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva",
+      "name": {
+        "value": "Test Eta",
+        "quote": "Name Test Eta"
+      },
+      "occupation": {
+        "value": "teacher",
+        "quote": "occupation teacher"
+      },
+      "income": {
+        "value": "30000 monthly",
+        "quote": "income 30000 monthly"
+      },
+      "contact_number": {
+        "value": "0800000005",
+        "quote": "My contact number is 0800000005."
+      }
+    },
+    "lead_active": false,
+    "lead_saved": true,
+    "saved": [
+      {
+        "lead_id": "55c05425-6d53-526e-8859-c1622bcc09da",
+        "session_id": "variation-negated_cancel",
+        "product_id": "cheeva",
+        "name": "Test Eta",
+        "occupation": "teacher",
+        "income": "30000 monthly",
+        "contact_number": "0800000005",
+        "evidence": {
+          "name": "Name Test Eta",
+          "occupation": "occupation teacher",
+          "income": "income 30000 monthly",
+          "contact_number": "My contact number is 0800000005.",
+          "product": "Khum Cheeva"
+        }
+      }
+    ],
+    "issues": []
+  }
+]

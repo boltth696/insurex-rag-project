@@ -1,0 +1,16 @@
+[
+  {
+    "case": "health_deductible_scope",
+    "turn": 1,
+    "question": "Is Khum Raksa Maojai Extra Bronze's ฿30,000 deductible one amount for the entire year, or per inpatient admission? Does it apply to every benefit?",
+    "answer": "The THB 30,000 deductible applies per inpatient admission, not once for the entire year. It applies to benefits 1–6 subject to the printed exceptions: benefit 2.1 (outpatient medical expenses); benefit 2.2, minor surgery ONLY; benefit 3.1 (specified critical-illness lump sum); benefit 6.1 (emergency outpatient treatment). Only the minor-surgery part of benefit 2.2 is listed as an exception; do not exempt the entire day-surgery benefit or reverse this into excluding minor surgery from the exception. It does not apply to every benefit. Full policy and claim conditions still apply.\n\nSources:\n[3] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3",
+    "mode": "single",
+    "topic": "exclusions",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  }
+]

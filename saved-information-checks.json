@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-04",
+  "data": "synthetic records in isolated temporary storage",
+  "API_calls": 0,
+  "full_regression_suite": {"passed": 298, "python": "3.12.10", "project": "extracted copy"},
+  "saved_data_tests": 6,
+  "browser_checks": {
+    "saved_lead_search": "passed",
+    "income_and_contact_detail_display": "passed",
+    "filtered_JSON_download": "passed; one synthetic lead, leading-zero phone preserved",
+    "remembered_profile_and_history": "passed",
+    "resume_matching_conversation": "passed"
+  },
+  "scope": "Only the active instance's session and lead databases are displayed. Viewing records makes no API calls.",
+  "runtime_limitation": "Intermittent native access violations also occurred with independent Python 3.12.10 during other test attempts. A passing run does not establish that this problem is resolved."
+}

@@ -1,0 +1,35 @@
+{
+  "review_date": "2026-10-04",
+  "method": "Manual comparison of substantive final answers with the source-bound product catalog and reviewed brochure table/condition notes. Automated fragment checks alone are insufficient.",
+  "initial_issue": {
+    "raw_run": "submission-demo-before-fix.json",
+    "automated_result": "26/26 initial fragment checks passed",
+    "manual_result": "A CI 50 comparison inferred fifty illnesses from the rider name and described broader coverage without supplied definitions.",
+    "fix": "Explicit evidence limitation, one bounded model repair, and rejection of the observed unsupported count claim if it persists.",
+    "regressions": "tests/test_answer_checks.py"
+  },
+  "pension_improvement": {
+    "problem": "A universal ten-year pension question previously received only catalog terms.",
+    "fix": "Universal assertions bypass the catalog shortcut and receive an interpreted answer from the relevant source pages.",
+    "final_result": "The answer begins No and explains payment until age 55, duration depending on age at entry, and the male-age-45 example."
+  },
+  "checker_correction": {
+    "original_log": "submission-demo-checker-original.json",
+    "initial_strict_result": "25/26: the checker required the literal phrase entry age",
+    "accepted_paraphrase": "age at entry",
+    "final_reviewed_result": "26/26",
+    "answers_modified": false,
+    "reproduce": "python demo/run_submission_demo.py --recheck-log demo/submission-demo-checker-original.json"
+  },
+  "final_checks": [
+    "Cheeva's CI 50 count is not inferred; rider choice and example limitations are preserved.",
+    "CI Plus early/severe benefits, prior-claim deduction, premium waiver, termination and waiting period remain separate.",
+    "Health coverage is a rider attached to a base life policy; it is not a standalone quote.",
+    "Aomsook coverage is 25 years and premium payments 15 years.",
+    "Pension payment-ending age is not a fixed universal ten-year period.",
+    "The nonexistent product receives an evidence limitation.",
+    "English and Thai synthetic lead records preserve the supplied names, occupation, income and phone fields.",
+    "A separate process restores the unfinished draft, and two customer sessions retain their own age/budget/goal."
+  ],
+  "limitation": "This review establishes these recorded examples, not perfect accuracy for every future paraphrase or complete policy terms."
+}

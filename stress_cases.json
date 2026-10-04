@@ -1,0 +1,53 @@
+{
+ "monthly_amount_correction":[
+  {"q":"I'm 22. Income is 22000 baht monthly but insurance spending limit is only 1500 a month. I want hospital bills covered. No other insurance.","profile":{"age_quote":"22","budget_quote":"1500","goals":"medical","coverage_status":"none"},"contains":["Maojai"]},
+  {"q":"Actually make the insurance budget 900 a month. Do not change my income or age.","profile":{"budget_quote":"900","age_quote":"22"}},
+  {"q":"Recap my age, budget and protection goal.","contains":["22","900"],"absent":["Premium budget: 22000"]}
+ ],
+ "budget_not_age":[
+  {"q":"I earn 35000 and have an annual insurance budget of 22000. Help me choose life cover.","profile":{"age_quote":"","budget_quote":"22000"}},
+  {"q":"I am twenty-two years old.","profile":{"age_quote":"twenty-two"}},
+  {"q":"What age and budget did I tell you?","contains":["twenty-two","22000"]}
+ ],
+ "second_person":[
+  {"q":"Age 22, 20000 yearly for life cover, no existing insurance.","profile":{"age_quote":"22"}},
+  {"q":"Switching to another customer now: age 57, retirement goal. No budget stated for him yet.","profile":{"age_quote":"57","budget_quote":"","goals":"retirement"}},
+  {"q":"His budget is 50000 per year.","profile":{"age_quote":"57","budget_quote":"50000"}},
+  {"q":"What age, budget and main goal do you have for this customer?","contains":["57","50000"],"absent":["Age: 22","Premium budget: 20000"]}
+ ],
+ "employer_then_none":[
+  {"q":"I am 28 and already have employer hospital coverage. Budget is 30000 per year. Want medical cover.","profile":{"coverage_status":"current"}},
+  {"q":"Correction, that employer coverage ended. I have no existing insurance now.","profile":{"coverage_status":"none"},"absent":["check its benefits, limits and gaps"]},
+  {"q":"Does the total budget include the base life policy and health rider?","contains":["premium"],"absent":["What kind of protection"]}
+ ],
+ "mixed_lead_income":[
+  {"q":"I am interested in Khum Cheeva.","lead_active":true},
+  {"q":"My name is Test Gamma. I am a teacher. My income is 30000 baht monthly but premium budget is 5000 baht yearly.","draft":{"income":"30000"},"lead_active":true,"lead_saved":false},
+  {"q":"My contact number is 0800000003.","lead_saved":true,"saved":{"product_id":"cheeva","contact_number":"0800000003"}}
+ ],
+ "ambiguous_lead_products":[
+  {"q":"I am interested in Cheeva and CI Plus but haven't selected either yet.","lead_active":true,"lead_saved":false},
+  {"q":"Please use Khum Cheeva. Name Test Delta, occupation student, income 9000 monthly.","draft":{"product_id":"cheeva","name":"Test Delta"},"lead_active":true},
+  {"q":"Don't save my contact details. Cancel lead collection.","lead_active":false,"lead_saved":false}
+ ],
+ "zero_income_lead":[
+  {"q":"I am interested in Khum Aomsook. My name is Test Epsilon, a student. Income is 0 baht monthly. My contact number is 0800000004.","lead_saved":true,"saved":{"product_id":"aomsook","contact_number":"0800000004"}}
+ ],
+ "lead_policy_question":[
+  {"q":"I am interested in Khum Talodcheep CI Plus. Name Test Zeta, occupation teacher, income 40000 baht monthly.","lead_active":true},
+  {"q":"What if I cancel the policy after two years?","lead_active":true,"lead_saved":false,"absent":["Lead collection cancelled"]},
+  {"q":"I refuse to give a phone number. Stop collecting my details.","lead_active":false,"lead_saved":false}
+ ],
+ "thai_mixed_details":[
+  {"q":"อายุ 32 รายได้ 50000 บาทต่อเดือน แต่งบประกันปีละ 20000 อยากได้เงินถ้าเป็นโรคร้ายแรง ไม่มีประกันเดิม","profile":{"age_quote":"32","budget_quote":"20000","goals":"critical_illness","coverage_status":"none"}},
+  {"q":"แก้ไขงบเหลือปีละ 12000 บาท อายุเหมือนเดิม","profile":{"budget_quote":"12000","age_quote":"32"}},
+  {"q":"สรุปอายุ งบ และเป้าหมายที่บอก","contains":["32","12000"]}
+ ],
+ "shortened_plan_reference":[
+  {"q":"For CI Plus Plan 4, compare five-year and twenty-year annual-payment premiums in the brochure example.","contains":["127,000","36,000","1,000,000"]},
+  {"q":"Does this guarantee I can get that exact premium at age 22?","contains_any":[["not","cannot"]],"absent":["guaranteed to fit"]}
+ ],
+ "pension_conflict":[
+  {"q":"Khum Bamnan 85/55 page 2 says 18% for ages 75–85, but the age-45 example on page 3 gives 240000 on a million sum insured. Which rate can you confirm?","contains":["18%","24%"],"contains_any":[["conflict","inconsisten","discrepancy","contradict"]],"source_prefixes":["05_SCB"]}
+ ]
+}

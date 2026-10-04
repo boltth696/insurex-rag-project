@@ -1,0 +1,194 @@
+[
+  {
+    "case": "older_life",
+    "turn": 1,
+    "question": "I'm 87, budget 50000 per year. I want money for my family if I die. No other insurance. What would you recommend?",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nAge 87 is outside the published entry-age ranges for Khum Cheeva: 90/10: 0–70. [3]\nAge 87 is outside the published entry-age ranges for Khum Talodcheep CI Plus: 90/5: 16–60; 90/10: 16–60; 90/20: 16–55. [16]\nNone of the goal-matched options in these brochures is within the published entry-age range for this age. Ask the insurer about other products; this does not establish that insurance elsewhere is unavailable.\nFor money to your family on death, compare death benefits and the amount your dependents need. This does not establish payment for every unexpected event.\nYou said you have no existing insurance.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "I want money for my family if I die",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I'm 87",
+      "budget_quote": "budget 50000 per year",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No other insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "older_ci",
+    "turn": 1,
+    "question": "I am 65, yearly budget 50000, want a lump sum for serious illness. No insurance now. What are my options?",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nAge 65 is outside the published entry-age ranges for Khum Talodcheep CI Plus: 90/5: 16–60; 90/10: 16–60; 90/20: 16–55. [16]\nYou said you have no existing insurance.\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "critical_illness"
+      ],
+      "goal_quote": "want a lump sum for serious illness",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I am 65",
+      "budget_quote": "yearly budget 50000",
+      "benefit_quote": "a lump sum for serious illness",
+      "existing_coverage_quote": "No insurance now",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "older_retirement",
+    "turn": 1,
+    "question": "Age 65, annual budget 50000, main goal retirement. No existing policies. Recommend something.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nAge 65 is outside the published entry-age ranges for Khum Bamnan: 85/55: 20–50; 85/60: 20–55; 85/65: 20–60. [7]\nNone of the goal-matched options in these brochures is within the published entry-age range for this age. Ask the insurer about other products; this does not establish that insurance elsewhere is unavailable.\nYou said you have no existing insurance.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[4] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, page 1\n[5] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, page 2\n[6] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, page 3\n[7] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "retirement"
+      ],
+      "goal_quote": "main goal retirement",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 65",
+      "budget_quote": "annual budget 50000",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No existing policies",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "child_health",
+    "turn": 1,
+    "question": "My child is age 8. Annual budget 50000, main goal hospital bills, no existing insurance. Which product would you suggest?",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nAge 8 is outside the published entry-age ranges for Khum Raksa Maojai Extra: Extra: 11–75. [11]\nNone of the goal-matched options in these brochures is within the published entry-age range for this age. Ask the insurer about other products; this does not establish that insurance elsewhere is unavailable.\nYou said you have no existing insurance.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "main goal hospital bills",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "My child is age 8",
+      "budget_quote": "Annual budget 50000",
+      "benefit_quote": "",
+      "existing_coverage_quote": "no existing insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "ci_age57",
+    "turn": 1,
+    "question": "Age 57, 50000 annually, need critical illness cash. No insurance. Recommend options.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nAt age 57, only these Khum Talodcheep CI Plus options are within the published entry-age ranges: 90/5, 90/10. Acceptance remains unverified. [16]\nYou said you have no existing insurance.\n\nKhum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10 years, depending on the variant. [14] [15] [16]\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "critical_illness"
+      ],
+      "goal_quote": "need critical illness cash",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 57",
+      "budget_quote": "50000 annually",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "pension_age57",
+    "turn": 1,
+    "question": "Age 57, annual premium budget 50000, main goal retirement. No other insurance. What would you suggest?",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nAt age 57, only these Khum Bamnan options are within the published entry-age ranges: 85/65. Acceptance remains unverified. [7]\nYou said you have no existing insurance.\n\nKhum Bamnan / คุ้มบำนาญ (85/65): Pension insurance. Coverage: until age 85. Premium payments: 85/65: until age 65. [4] [5] [6] [7]\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[4] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, page 1\n[5] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, page 2\n[6] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, page 3\n[7] 05_SCB-InsureX_Khum-Bamnan_85-55_85-60_85-65_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "retirement"
+      ],
+      "goal_quote": "main goal retirement",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 57",
+      "budget_quote": "annual premium budget 50000",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No other insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  }
+]

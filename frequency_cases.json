@@ -1,0 +1,21 @@
+{
+ "missing_period":[
+  {"q":"I'm 22. Insurance budget 20000. I need help paying hospital bills. I have no insurance now.","contains":["monthly or annual"],"profile":{"budget_quote":"20000","goals":"medical"}},
+  {"q":"That is 20000 per year, not monthly. Same customer.","profile":{"age_quote":"22","budget_quote":"20000"},"absent":["whether your stated budget is monthly or annual"]},
+  {"q":"What age, budget and goal do you remember?","contains":["22","20000","year"]}
+ ],
+ "frequency_change":[
+  {"q":"Age 22, 20000 per year for hospital cover. No insurance.","profile":{"budget_quote":"20000"}},
+  {"q":"Change it to 1000 per month, and keep my age and goal.","profile":{"budget_quote":"1000","age_quote":"22"}},
+  {"q":"Recall my age and budget.","contains":["22","1000","month"],"absent":["20000 per year"]}
+ ],
+ "negated_switch":[
+  {"q":"Age 22, annual budget 20000, medical bills, no insurance.","profile":{"age_quote":"22"}},
+  {"q":"This is not a new customer. Same customer, budget changed to 1500 monthly.","profile":{"age_quote":"22","budget_quote":"1500","goals":"medical"}}
+ ],
+ "negated_cancel":[
+  {"q":"I am interested in Khum Cheeva. Name Test Eta, occupation teacher, income 30000 monthly.","lead_active":true},
+  {"q":"Do not stop collecting my details. What else do you need?","lead_active":true,"lead_saved":false,"contains":["contact"]},
+  {"q":"My contact number is 0800000005.","lead_saved":true,"saved":{"product_id":"cheeva","contact_number":"0800000005"}}
+ ]
+}

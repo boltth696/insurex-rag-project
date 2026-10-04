@@ -1,0 +1,10 @@
+{
+  "amount": 30000,
+  "page": 3,
+  "exceptions": [
+    "benefit 2.1 (outpatient medical expenses)",
+    "benefit 2.2, minor surgery ONLY",
+    "benefit 3.1 (specified critical-illness lump sum)",
+    "benefit 6.1 (emergency outpatient treatment)"
+  ]
+}

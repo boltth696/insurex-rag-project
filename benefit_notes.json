@@ -1,0 +1,83 @@
+{
+  "review_note": "Manually reviewed against the rendered brochure tables. These are source-bound interpretation notes, not complete rider terms or universal customer quotations. Cheeva page 2 Plan 1 separate cancer rider: non-invasive THB 210,000; invasive after prior non-invasive payout THB 390,000; invasive with no prior non-invasive payout THB 600,000. The THB 300,000 row is the rider sum insured, NOT the non-invasive cancer payout.",
+  "notes": [
+    {
+      "product_id": "raksa",
+      "page": 3,
+      "quote": "ตัวอย่างเบี้ยประกันภัย (ปีแรก) อายุ 35 ปี ชาย/หญิง",
+      "text": "PREMIUM EXAMPLE ONLY: first policy year, age 35 male/female. Bronze plan, Thailand, THB 1 million annual benefit limit: annual-payment premium THB 20,620 WITHOUT deductible; THB 8,632 WITH a THB 30,000 deductible per inpatient admission as defined in the table/footnote, applying only to specified benefits. Do not call THB 8,632 a no-deductible premium. These are rider example premiums, not an age-22 customer quote or total base-policy-plus-rider price. They do not establish the cheapest available product. A lower deductible-plan premium involves customer cost-sharing and is not the same coverage as a no-deductible plan. Monthly installment totals differ from the explicit annual-payment row."
+    },
+    {
+      "product_id": "cheeva",
+      "page": 2,
+      "quote": "ตัวอย่างผลประโยชน์ความคุ้มครอง เพศชาย อายุ 40 ปี",
+      "text": "ILLUSTRATED EXAMPLE ONLY: male age 40, Cheeva 90/10, Plan 1. CI 50 rider sum insured is THB 300,000. The non-cancer critical illness section applies before the policy anniversary at age 85: early-stage benefit THB 60,000; severe-stage benefit THB 240,000 if an early-stage benefit was already paid, or THB 300,000 if none was paid. Plans 2/3 illustrate rider sums insured THB 500,000/1,000,000, early-stage THB 100,000/200,000, subsequent severe THB 400,000/800,000, or severe without prior early claim THB 500,000/1,000,000. A separate cancer rider has separate benefit rows. The brochure DOES provide these benefit examples, but does not enumerate the complete CI 50 illness definitions. Do not infer 50 covered illnesses from the rider name. The base life policy's coverage until age 90 and 10-year premium term must not be assigned to riders automatically. The footnotes say rider premiums may change with age and other factors. SEPARATE CANCER RIDER, same male age-40 Plan-1 example before age 85: sum insured THB 300,000, non-invasive cancer PAYOUT THB 210,000; invasive cancer AFTER an earlier non-invasive payout THB 390,000; invasive with NO earlier non-invasive payout THB 600,000. Do not confuse sum insured with non-invasive payout or shift values between rows. The chemotherapy/radiotherapy outpatient row is a separate THB 120,000 limit. Complete CI50 rider premium-payment duration is NOT established by these pages. Say the base ten-year term does not prove the rider premium stops, and obtain the rider terms; do not assert that the brochure specifies a continuation beyond ten years."
+    },
+    {
+      "product_id": "cheeva",
+      "page": 3,
+      "quote": "สัญญาเพิ่มเติมที่ต้องแนบ",
+      "text": "Cheeva is a base whole-life 90/10 policy with REQUIRED eligible rider attachments under underwriting conditions for BOTH base-sum-insured ranges, not only below THB 1 million. For base sums at or above THB 1 million, the specified eligible accident/CI50/cancer rider(s), individually or in combination, must have at least THB 1 million rider sum insured. The below-1-million row states attachment amounts equal to the base sum and at least THB 500,000; preserve the printed wording and seek insurer clarification if its application is ambiguous. CI 50 is ONE selectable rider choice; it is NOT automatically included and NOT individually mandatory. Another eligible rider or combination can meet the attachment requirement. Do not conclude that CI50 itself is required."
+    },
+    {
+      "product_id": "ci_plus",
+      "page": 1,
+      "quote": "ไม่ต้องจ่ายเบี้ยประกันภัยอีกต่อไป พร้อมรับความ",
+      "text": "CI Plus integrates life and critical illness protection. It covers 15 specified severe and 4 specified early-stage conditions. A qualifying early-stage diagnosis pays 25% of the sum insured, waives further premiums, and coverage continues subject to policy terms. This is not a benefit for any early-stage illness. The severe benefit is the greater of 100% of sum insured minus early-stage benefits already paid, or eligible total premiums paid (excluding rider premiums) minus early-stage benefits already paid. Do not present an unconditional additional 100% payout after the 25% benefit. Permanent total disability has a separate age-75 limitation specified in the footnote."
+    },
+    {
+      "product_id": "ci_plus",
+      "page": 2,
+      "quote": "กรมธรรม์จะสิ้นผลบังคับ เมื่อบริษัทฯ จ่ายผลประโยชน์เต็มจํานวนเงินเอาประกันภัยแล้ว",
+      "text": "The early-stage critical illness benefit is payable once during the lifetime. The policy terminates when the insurer has paid the full sum-insured benefit. The death and maturity benefits also deduct early-stage benefits previously paid. Do not imply the policy continues after a full severe-illness payout. PREMIUM TABLE EXAMPLE ONLY: male age 35, Plan 1, sum insured THB 200,000. Annual premium: 5-year payment THB 25,400; 10-year payment THB 13,000; 20-year payment THB 7,200. Monthly premium: respectively THB 2,286; THB 1,170; THB 648. Monthly premium times twelve is the total cost of monthly installments, NOT the brochure's annual-payment premium. Use the explicit annual row when comparing annual-payment premiums. These are not quotes for age 22 and do not prove universal rankings across ages or products."
+    },
+    {
+      "product_id": "ci_plus",
+      "page": 3,
+      "quote": "ที่เกิดขึ้นภายใน 90 วัน",
+      "text": "CI Plus has a 90-day waiting period for covered critical illness or medically confirmed related abnormalities, measured from policy coverage commencement or approval of an increase in sum insured, whichever is later. Exclusions and diagnostic definitions apply. Do not transfer this waiting period to Cheeva's CI 50 rider; its complete rider conditions are not supplied here."
+    },
+    {
+      "product_id": "ci_plus",
+      "page": 2,
+      "quote": "ความคุ้มครองชีวิต",
+      "text": "PREMIUM TABLE EXAMPLE ONLY: male age 35, annual-payment row. Plan 1 sum insured THB 200,000: 5/10/20-year premiums THB 25,400/13,000/7,200. Plan 2 sum THB 500,000: THB 63,500/32,500/18,000. Plan 3 sum THB 800,000: THB 101,600/52,000/28,800. Plan 4 sum THB 1,000,000: THB 127,000/65,000/36,000. Do not reuse Plan 1 rates for another plan or infer customer affordability. Monthly installments have a different total; Plan 1 twenty-year monthly THB 648 totals THB 7,776 per twelve months, versus the THB 7,200 annual-payment premium."
+    },
+    {
+      "product_id": "ci_plus",
+      "page": 3,
+      "quote": "หมายเหตุ",
+      "text": "Published entry ages: 5-year and 10-year payment options ages 16–60; 20-year option ages 16–55. Minimum sum insured: 5-year option THB 150,000; 10-year and 20-year options THB 200,000. An age within these ranges is not guaranteed underwriting acceptance. At age 60 only the 5/10-year options are within the printed ranges."
+    },
+    {
+      "product_id": "raksa",
+      "page": 3,
+      "quote": "ตารางผลประโยชน์และความคุ้มครอง",
+      "text": "Bronze table: THB 1 million annual benefit limit does not remove category sublimits. Room, food and hospital-service benefit is THB 2,500 per day, up to 365 days; ICU duration has a separate 180-day limit. THB 30,000 deductible is per inpatient admission, for specified benefits 1–6 with printed exceptions 2.1, 2.2 minor surgery, 3.1 and 6.1. It is not once per year or automatically applicable to every benefit. Dental/vision benefits have 20% co-payment where covered by the selected plan. Benefits vary by tier; never treat every listed benefit as included in Bronze. Exact deductible exceptions: benefit 2.1, benefit 2.2 ONLY the minor-surgery part, benefit 3.1 and benefit 6.1. Do not reverse this into \"except minor surgery\"; minor surgery is itself excluded from deductible application. A no-deductible option removes this selected deductible, not all co-payments, sublimits, exclusions or uncovered costs."
+    },
+    {
+      "product_id": "aomsook",
+      "page": 2,
+      "quote": "เป้าหมายมีเงินก้อนในอีก 25 ปีข้างหน้า",
+      "text": "Plan 1 worked table: sum insured THB 100,000. Cash at each policy year end 1–24 is THB 1,000 (1% of sum insured); maturity THB 150,000 (150% of sum insured), nominal illustrated total THB 174,000. Maturity footnote: greater of 150% of sum insured or premiums received minus prior periodic returns. These percentages are NOT returns on all premiums or an annual yield. Plan 1 death sum-insured amounts: years 1–10 THB 150,000 (150%), years 11–25 THB 200,000 (200%), OR cash surrender value OR total premiums paid, whichever is greater. Thus years 8 and 18 have different printed amounts. Answer requested THB amounts as well as percentages. Male age-30 example annual-payment premium Plan 1 THB 9,758, monthly THB 878; neither is an age-22 quote."
+    },
+    {
+      "product_id": "bamnan",
+      "page": 4,
+      "quote": "หมายเหตุ",
+      "text": "Published entry ages: 85/55 ages 20–50, 85/60 ages 20–55, 85/65 ages 20–60. A new age-57 customer is within only 85/65 published range; actual underwriting acceptance is not confirmed. Premiums continue until the selected age 55/60/65, not universally ten years."
+    },
+    {
+      "product_id": "bamnan",
+      "page": 2,
+      "quote": "ชําระเบี้ยฯ ครบอายุ 65 ปี",
+      "text": "SOURCE INCONSISTENCY: the 85/55 timeline prints 18% for ages 75–85 on this page. The page-3 male age-45 worked example shows THB 240,000 yearly for that band on THB 1 million sum insured, equivalent to 24%. Do not silently resolve these contradictory figures or promise either universally. State the discrepancy and seek the insurer/full policy confirmation when asked about this rate."
+    },
+    {
+      "product_id": "bamnan",
+      "page": 3,
+      "quote": "ชําระเบี้ยประกันภัย ปีละ 372,630 บาท",
+      "text": "ILLUSTRATED EXAMPLE ONLY: male age 45, 85/55, sum insured THB 1 million. Annual premium THB 372,630; ten-year premium total THB 3,726,300; nominal total pension receipts THB 5,640,000. Annual pension example: ages 55–64 THB 120,000; 65–74 THB 180,000; 75–85 THB 240,000. The last band conflicts with the page-2 18% timeline; preserve the source conflict. These nominal totals do not establish an annual return or a customer quote."
+    }
+  ]
+}

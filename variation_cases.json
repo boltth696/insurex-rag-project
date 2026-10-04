@@ -1,0 +1,72 @@
+{
+  "life_memory": [
+    {"q":"I want insurance but don’t know where to start.","contains":["age","budget","goal"]},
+    {"q":"Age 22, annual premium budget ฿20,000, main goal is life protection.","profile":{"age_quote":"22","budget_quote":"20,000","goals":"life"}},
+    {"q":"I don’t have any existing insurance. I want my family to receive ฿1 million if I die. Can you confirm whether either option fits my ฿20,000 annual budget?","mode":"budget_fit","contains":["cannot confirm","1 million","20,000"],"absent":["35-year-old","25,400"]},
+    {"q":"I have two children. I want them to have money if something happens to me","contains":["22","20,000","1 million","disabled or ill"],"absent":["Please provide your age","check its benefits"]},
+    {"q":"What age, budget and protection goal have I given you?","contains":["22","20,000","die"]}
+  ],
+  "goal_changes": [
+    {"q":"I'm frugal, just turned 22, and have 1500 baht per month for insurance. Mostly protection please.","contains":["What kind of protection"]},
+    {"q":"The hospital bills matter most. No other insurance.","contains":["Maojai"],"profile":{"coverage_status":"none"}},
+    {"q":"Does that 1500 have to cover the main policy as well as the health add-on?","contains":["premium"]},
+    {"q":"Actually I would rather get cash if I become seriously ill. Keep the age and budget.","contains":["CI Plus"],"profile":{"goals":"critical_illness"}},
+    {"q":"Correction, I can set aside 24000 baht per year now.","profile":{"budget_quote":"24000"}},
+    {"q":"Summarise my profile.","contains":["22","24000","ill"]}
+  ],
+  "new_customer": [
+    {"q":"I am 22 with 50000 baht yearly and want life cover. I have no existing insurance.","profile":{"age_quote":"22"}},
+    {"q":"Now this is a different customer. She is 45 and wants hospital bill coverage. Her budget has not been given.","contains":["premium budget"],"profile":{"age_quote":"45","budget_quote":""}},
+    {"q":"She has employer health benefits. What else do you need?","absent":["50000","age 22"],"profile":{"age_quote":"45","budget_quote":""}},
+    {"q":"What customer age and budget have I supplied?","contains":["45"],"absent":["50000","Age: 22"]}
+  ],
+  "thai_profile": [
+    {"q":"อายุ 22 งบปีละ 20000 ต้องการเงินให้ครอบครัวถ้าเสียชีวิต ไม่มีประกันอยู่แล้ว","profile":{"age_quote":"22","budget_quote":"20000","coverage_status":"none","goals":"life"}},
+    {"q":"อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต แผนไหนอยู่ในงบนี้ไหม","mode":"budget_fit","contains":["ยืนยันไม่ได้"]},
+    {"q":"เปลี่ยนงบเป็นเดือนละ 1000 บาท แต่อายุและเป้าหมายเหมือนเดิม","profile":{"budget_quote":"1000","age_quote":"22"}},
+    {"q":"สรุปข้อมูลของฉัน","contains":["22","1000"]}
+  ],
+  "medium_mass": [{"q":"What would you suggest for medium mass customers?","contains":["age","budget","goal"],"absent":["By 'lower mass'"]}],
+  "high_mass": [{"q":"I need recommendations for high mass customers","contains":["age","budget","goal"]}],
+  "wealthy": [{"q":"She is wealthy. What insurance is best?","contains":["age","budget","goal"]}],
+  "poor": [{"q":"I'm poor and 22, need hosp cover, 12000 baht a year","contains":["Maojai"],"profile":{"budget_quote":"12000"}}],
+  "employer_changes": [
+    {"q":"I am 30, can spend 30000 yearly, want hospital cover, and have no insurance.","profile":{"coverage_status":"none"}},
+    {"q":"My employer now covers hospital bills. Do I need more insurance?","contains":["not automatically necessary","limits","gaps"],"absent":["Please provide your age"]},
+    {"q":"I left that company, so I have no cover now. Keep my age and budget.","profile":{"coverage_status":"none","age_quote":"30","budget_quote":"30000"}},
+    {"q":"What age, budget and goal have I told you?","contains":["30","30000"]}
+  ],
+  "leads_split": [
+    {"q":"I am interested in Khum Cheeva.","lead_active":true,"contains":["name","occupation","income","contact number"]},
+    {"q":"Test Alpha, student","draft":{"name":"Test Alpha","occupation":"student"},"contains":["income","contact number"]},
+    {"q":"My premium budget is 20000 per year.","lead_saved":false,"income_empty":true},
+    {"q":"My income is 8000 baht monthly. My contact number is 123.","lead_saved":false,"contains":["resend"]},
+    {"q":"My phone number is 0800000000.","lead_saved":true,"saved":{"name":"Test Alpha","occupation":"student","income":"8000 baht monthly","contact_number":"0800000000","product_id":"cheeva"}}
+  ],
+  "leads_thai": [
+    {"q":"สนใจคุ้มออมสุข","lead_active":true,"contains":["ชื่อ","อาชีพ","รายได้","เบอร์ติดต่อ"]},
+    {"q":"ชื่อ ลูกค้าทดสอบ ทำงานครู รายได้ 30000 บาทต่อเดือน โทร 0800000001","lead_saved":true,"saved":{"product_id":"aomsook","contact_number":"0800000001"}}
+  ],
+  "leads_correction": [
+    {"q":"I am interested in Khum Talodcheep CI Plus.","lead_active":true},
+    {"q":"My name is Test Beta. I am a developer and earn 40000 baht a month.","draft":{"name":"Test Beta"}},
+    {"q":"Correction, my income is 30000 baht per month.","draft":{"income":"30000 baht per month"}},
+    {"q":"What happens after a full severe illness payout?","contains":["terminat"],"lead_active":true,"lead_saved":false},
+    {"q":"My contact number is +66 80 000 0002","lead_saved":true,"saved":{"income":"30000 baht per month","contact_number":"+66 80 000 0002"}}
+  ],
+  "leads_cancel": [
+    {"q":"I am interested in Khum Cheeva.","lead_active":true},
+    {"q":"My name is Test Gamma and I am a student.","lead_active":true},
+    {"q":"I don't want to share my phone number. Cancel this.","lead_active":false,"lead_saved":false},
+    {"q":"What are the benefits of Khum Cheeva?","lead_saved":false}
+  ],
+  "negated_interest": [{"q":"I am not interested in Khum Cheeva. Just tell me the difference from CI Plus.","lead_active":false}],
+  "informational_interest": [{"q":"If I am interested in Khum Cheeva, what information would you need?","lead_active":false}],
+  "price_ten_twenty": [{"q":"For CI Plus Plan 1, compare the brochure annual premiums for ten-year versus twenty-year payments.","contains":["13,000","7,200"],"absent":["25,400"]}],
+  "price_five_twenty": [{"q":"Would paying premiums over five years be cheaper per year than twenty years?","contains":["shorter payment period","quote"],"absent":["five-year payments are always cheaper"]}],
+  "short_numeric_quotes": [
+    {"q":"I am 22, budget 22000 baht yearly, want medical insurance.","profile":{"age_quote":"22"}},
+    {"q":"Actually the customer is age 33, with 22000 baht each year.","profile":{"age_quote":"33","budget_quote":"22000"}},
+    {"q":"Recall my profile","contains":["33","22000"],"absent":["Age: 22"]}
+  ]
+}

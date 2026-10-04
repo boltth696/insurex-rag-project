@@ -1,0 +1,89 @@
+{
+  "verified_at": "2026-10-04T09:51:54.065363+07:00",
+  "ready_for_submission": true,
+  "assessment": {
+    "core_objective": "Brochure question answering for sales staff and systematic structured lead collection",
+    "bonus_1": "Implemented via LangChain Tooling, Pydantic and SQLite",
+    "bonus_2": "Implemented via separate LangGraph thread IDs and persistent SQLite checkpoints",
+    "MCP_transport_server": false
+  },
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows",
+    "dependencies": {
+      "langchain": "1.4.3",
+      "langgraph": "1.2.12",
+      "langchain-openai": "1.6.7",
+      "langgraph-checkpoint-sqlite": "3.1.1",
+      "faiss-cpu": "1.15.1",
+      "pydantic": "2.13.5",
+      "streamlit": "1.65.0"
+    },
+    "pip_check": "No broken requirements found."
+  },
+  "regression_suite": {
+    "tests": 305,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 11.143,
+    "API_calls": 0
+  },
+  "online_demo": {
+    "passed": 26,
+    "total": 26,
+    "mode": "actual synthetic OpenAI run",
+    "checker_review": "One source-reviewed entry-age paraphrase accepted; original answer and strict-checker log preserved."
+  },
+  "offline_demo": {
+    "passed": 5,
+    "total": 5,
+    "API_calls": 0
+  },
+  "knowledge_base": {
+    "brochures": 5,
+    "indexed_pages": 16,
+    "indexed_chunks": 50,
+    "source_hashes_match": true,
+    "embedding_model": "text-embedding-3-small"
+  },
+  "documentation": {
+    "single_setup_guide": "README.md",
+    "neutral_naming_verified": true,
+    "README_links_exist": true,
+    "demo_test_log": "demo/DEMO_TEST_CASE_LOG.md"
+  },
+  "submission_data_policy": "Only synthetic demo records; no credentials, customer SQLite files or virtual environments",
+  "limitations": [
+    "Tooling implementation; no MCP transport server.",
+    "Local session IDs are context separation, not user authentication.",
+    "No matching personalized quote means no verified affordability guarantee.",
+    "Recorded tests and focused claim checks do not prove perfect accuracy on untested wording."
+  ],
+  "extracted_package_verification": {
+    "tests": 305,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 10.839,
+    "offline_demo": "5/5 passed",
+    "initial_saved_sessions": 0,
+    "initial_saved_leads": 0,
+    "API_calls": 0,
+    "credential_file_included": false
+  },
+  "extracted_package_browser": {
+    "extracted_package": true,
+    "offline_chat": "passed",
+    "saved_lead_details": "passed",
+    "filtered_download": "passed",
+    "profile_history": "passed",
+    "resume_matching_chat": "passed",
+    "API_calls": 0
+  },
+  "screenshots": [
+    "demo/screenshots/chat.png",
+    "demo/screenshots/saved-leads.png",
+    "demo/screenshots/saved-conversation.png"
+  ]
+}

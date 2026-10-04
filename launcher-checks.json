@@ -1,0 +1,15 @@
+{
+  "automatic_ports": [
+    8501,
+    8502,
+    8503
+  ],
+  "repeat_start_reused_same_process": true,
+  "three_browser_pages_rendered": true,
+  "new_instance_separate_storage": true,
+  "other_instances_did_not_inherit_test_chat": true,
+  "stop_leaves_other_project_copy_running": true,
+  "test_servers_stopped": true,
+  "extracted_environment_tests_passed": 292,
+  "openai_calls_made": 0
+}

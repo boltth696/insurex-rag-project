@@ -1,0 +1,799 @@
+{
+  "note": "Latest complete scenario result is used. This aggregates multiple live runs, not one flawless first attempt. Fragment checks plus manual answer review do not establish accuracy for untested wording.",
+  "groups": {
+    "customer_variations": {
+      "passed": 50,
+      "total": 50,
+      "checks": [
+        {
+          "case": "life_memory",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "life_memory",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "life_memory",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "life_memory",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "life_memory",
+          "turn": 5,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "goal_changes",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "goal_changes",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "goal_changes",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "goal_changes",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "goal_changes",
+          "turn": 5,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "goal_changes",
+          "turn": 6,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "new_customer",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "new_customer",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "new_customer",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "new_customer",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "thai_profile",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "thai_profile",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "thai_profile",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "thai_profile",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "medium_mass",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "high_mass",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "wealthy",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "poor",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "employer_changes",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "employer_changes",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "employer_changes",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "employer_changes",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-final-profile-confirmation.json"
+        },
+        {
+          "case": "leads_split",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_split",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_split",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_split",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_split",
+          "turn": 5,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_thai",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_thai",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_correction",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_correction",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_correction",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_correction",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_correction",
+          "turn": 5,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_cancel",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_cancel",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_cancel",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "leads_cancel",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-flat-nodes.json"
+        },
+        {
+          "case": "negated_interest",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "informational_interest",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "price_ten_twenty",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "price_five_twenty",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "short_numeric_quotes",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "short_numeric_quotes",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        },
+        {
+          "case": "short_numeric_quotes",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-expanded-release.json"
+        }
+      ]
+    },
+    "factual_questions": {
+      "passed": 25,
+      "total": 25,
+      "checks": [
+        {
+          "case": "cheeva_riders_million",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "cheeva_rider_terms",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci50_count",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "cheeva_early_severe_example",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "cheeva_cancer_example",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci_plan2_premiums",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci_monthly_vs_annual",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci_age60_options",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci_age20_minimum",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci_once",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci_math",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci_wait_increase",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "ci_full_payout",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "health_bronze_price",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "health_bronze_room",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "health_deductible_scope",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-deductible-final.json"
+        },
+        {
+          "case": "health_99_base",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "health_expensive_quote",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "savings_percentage_basis",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "savings_total",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "savings_death",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "pension_fixed10",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "pension_age57",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "pension_example",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        },
+        {
+          "case": "cross_wait",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-factual-release.json"
+        }
+      ]
+    },
+    "stress_conversations": {
+      "passed": 29,
+      "total": 29,
+      "checks": [
+        {
+          "case": "monthly_amount_correction",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "monthly_amount_correction",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "monthly_amount_correction",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "budget_not_age",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "budget_not_age",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "budget_not_age",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "second_person",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "second_person",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "second_person",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "second_person",
+          "turn": 4,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "employer_then_none",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "employer_then_none",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "employer_then_none",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "mixed_lead_income",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "mixed_lead_income",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "mixed_lead_income",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "ambiguous_lead_products",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "ambiguous_lead_products",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "ambiguous_lead_products",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "zero_income_lead",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "lead_policy_question",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "lead_policy_question",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "lead_policy_question",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "thai_mixed_details",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "thai_mixed_details",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "thai_mixed_details",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "shortened_plan_reference",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "shortened_plan_reference",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        },
+        {
+          "case": "pension_conflict",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-stress-release.json"
+        }
+      ]
+    },
+    "budget_frequency_and_negation": {
+      "passed": 11,
+      "total": 11,
+      "checks": [
+        {
+          "case": "missing_period",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "missing_period",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "missing_period",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "frequency_change",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "frequency_change",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "frequency_change",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "negated_switch",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "negated_switch",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "negated_cancel",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "negated_cancel",
+          "turn": 2,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        },
+        {
+          "case": "negated_cancel",
+          "turn": 3,
+          "issues": [],
+          "result_file": "variations-frequency-initial.json"
+        }
+      ]
+    },
+    "payment_wording": {
+      "passed": 5,
+      "total": 5,
+      "checks": [
+        {
+          "case": "age_not_payment",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-payment-wording-final.json"
+        },
+        {
+          "case": "three_options",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-payment-wording-final.json"
+        },
+        {
+          "case": "thai_options",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-payment-wording-final.json"
+        },
+        {
+          "case": "invalid_cheeva_options",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-payment-wording-final.json"
+        },
+        {
+          "case": "invalid_ci_options",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-payment-wording-final.json"
+        }
+      ]
+    },
+    "entry_age": {
+      "passed": 6,
+      "total": 6,
+      "checks": [
+        {
+          "case": "older_life",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-entry-age-final.json"
+        },
+        {
+          "case": "older_ci",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-entry-age-final.json"
+        },
+        {
+          "case": "older_retirement",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-entry-age-final.json"
+        },
+        {
+          "case": "child_health",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-entry-age-final.json"
+        },
+        {
+          "case": "ci_age57",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-entry-age-final.json"
+        },
+        {
+          "case": "pension_age57",
+          "turn": 1,
+          "issues": [],
+          "result_file": "variations-entry-age-final.json"
+        }
+      ]
+    }
+  },
+  "passed": 126,
+  "total": 126
+}

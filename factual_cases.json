@@ -1,0 +1,429 @@
+{
+  "cheeva_riders_million": [
+    {
+      "q": "For Khum Cheeva with a ฿1 million base sum insured, can I omit all riders? Is CI 50 automatically included?",
+      "contains_any": [
+        [
+          "must",
+          "required"
+        ],
+        [
+          "not automatically",
+          "not automatic"
+        ],
+        [
+          "1,000,000",
+          "1 million",
+          "one million"
+        ]
+      ],
+      "source_prefixes": [
+        "02_SCB"
+      ],
+      "expected": "Eligible attachments remain required at base sum >=1m, with combined eligible rider cover >=1m. CI50 is one choice, not automatic."
+    }
+  ],
+  "cheeva_rider_terms": [
+    {
+      "q": "If I finish paying Khum Cheeva's base premiums in ten years, do my CI 50 rider premiums automatically stop as well?",
+      "contains_any": [
+        [
+          "not automatically",
+          "cannot assume",
+          "do not automatically",
+          "should not assume",
+          "not assume"
+        ],
+        [
+          "complete",
+          "terms",
+          "not established",
+          "not specified",
+          "not provided",
+          "does not specify",
+          "does not confirm"
+        ]
+      ],
+      "source_prefixes": [
+        "02_SCB"
+      ],
+      "expected": "Base10-year term is not automatically a rider term. Rider premiums may change with age and factors; complete rider terms needed."
+    }
+  ],
+  "ci50_count": [
+    {
+      "q": "Does the name CI 50 in Khum Cheeva prove it covers fifty illnesses?",
+      "contains_any": [
+        [
+          "not",
+          "cannot"
+        ]
+      ],
+      "source_prefixes": [
+        "02_SCB"
+      ],
+      "expected": "Name cannot establish count; brochure does not enumerate complete CI50 illness definitions."
+    }
+  ],
+  "cheeva_early_severe_example": [
+    {
+      "q": "In the Khum Cheeva brochure's male age-40 Plan-1 example, how much does CI 50 pay for early-stage illness and later severe illness, with and without an earlier payment?",
+      "contains": [
+        "60,000",
+        "240,000",
+        "300,000"
+      ],
+      "source_prefixes": [
+        "02_SCB"
+      ],
+      "expected": "Beforeage85: early60k; severe240k afterearly or300k withoutprior; example notcustomerquote."
+    }
+  ],
+  "cheeva_cancer_example": [
+    {
+      "q": "In Khum Cheeva's age-40 Plan-1 example, what are the cancer-rider payouts for non-invasive cancer and invasive cancer after a previous non-invasive payout?",
+      "contains": [
+        "210,000",
+        "390,000"
+      ],
+      "source_prefixes": [
+        "02_SCB"
+      ],
+      "expected": "Separatecancerrider:210k non-invasive,390k invasiveafterprior210k,600k invasivewithoutprior, before85."
+    }
+  ],
+  "ci_plan2_premiums": [
+    {
+      "q": "For CI Plus Plan 2 in the male age-35 brochure example, compare five-year and twenty-year annual-payment premiums.",
+      "contains": [
+        "63,500",
+        "18,000",
+        "500,000"
+      ],
+      "absent": [
+        "25,400"
+      ],
+      "source_prefixes": [
+        "11_SCB"
+      ],
+      "expected": "Plan2sum500k:annual63500for5payvs18000for20pay; monthlyrowsnotannualrates."
+    }
+  ],
+  "ci_monthly_vs_annual": [
+    {
+      "q": "The CI Plus Plan-1 age-35 example says ฿648 monthly for 20-year payments. Is its annual-payment premium exactly 648 times 12?",
+      "contains": [
+        "7,200",
+        "7,776"
+      ],
+      "source_prefixes": [
+        "11_SCB"
+      ],
+      "expected": "No: annualpayment7200;monthlyinstallmenttotal7776 differs. Contextmale35,sum200k."
+    }
+  ],
+  "ci_age60_options": [
+    {
+      "q": "I am 60. Does Khum Talodcheep CI Plus list age 60 as eligible for all three payment options, including twenty years?",
+      "contains": [
+        "55",
+        "60"
+      ],
+      "source_prefixes": [
+        "11_SCB"
+      ],
+      "expected": "No:5/10payentry16-60;20payentry16-55; listedageboundsnotguaranteedacceptance."
+    }
+  ],
+  "ci_age20_minimum": [
+    {
+      "q": "What minimum sums insured are listed for CI Plus's five-, ten- and twenty-year payment options?",
+      "contains": [
+        "150,000",
+        "200,000"
+      ],
+      "source_prefixes": [
+        "11_SCB"
+      ],
+      "expected": "5pay150k;10/20pay200k; sourcepage3underwritingtable."
+    }
+  ],
+  "ci_once": [
+    {
+      "q": "With Khum Talodcheep CI Plus can I claim 25% again every time a different early-stage covered illness is diagnosed?",
+      "contains_any": [
+        [
+          "once",
+          "one time",
+          "single"
+        ]
+      ],
+      "source_prefixes": [
+        "11_SCB"
+      ],
+      "expected": "No, qualifying early-stagebenefitonce lifetime;4definedconditions, notallillnesses."
+    }
+  ],
+  "ci_math": [
+    {
+      "q": "Hypothetical CI Plus example: sum insured ฿1,000,000, an early benefit of ฿250,000 already paid, and eligible total premiums excluding riders ฿1,200,000. Under the brochure's greater-of rule, what severe-illness payout would that calculate to?",
+      "contains": [
+        "750,000",
+        "950,000"
+      ],
+      "source_prefixes": [
+        "11_SCB"
+      ],
+      "expected": "max(1000000-250000,1200000-250000)=950000 conditionalqualifyingclaim, notadditional100percent."
+    }
+  ],
+  "ci_wait_increase": [
+    {
+      "q": "For Khum Talodcheep CI Plus, from what date is the 90-day waiting period measured if an increase in sum insured is approved after the original coverage begins?",
+      "contains": [
+        "90"
+      ],
+      "contains_any": [
+        [
+          "later",
+          "whichever is later"
+        ]
+      ],
+      "source_prefixes": [
+        "11_SCB"
+      ],
+      "expected": "Fromcoveragecommencementorapprovedsumincrease,whicheverlater;donottransferwaittootherproducts."
+    }
+  ],
+  "ci_full_payout": [
+    {
+      "q": "Can Khum Talodcheep CI Plus keep covering me after the insurer pays the full severe-critical-illness benefit?",
+      "contains_any": [
+        [
+          "terminate",
+          "ends",
+          "ends once"
+        ]
+      ],
+      "source_prefixes": [
+        "11_SCB"
+      ],
+      "expected": "Policyterminatesafterfullsum-insured benefitpaid; noautomaticcontinuedcoverage."
+    }
+  ],
+  "health_bronze_price": [
+    {
+      "q": "In the age-35 Bronze health-rider example, is ฿8,632 the annual price with no deductible? Compare it with the no-deductible price.",
+      "contains": [
+        "8,632",
+        "20,620",
+        "30,000"
+      ],
+      "source_prefixes": [
+        "07_SCB"
+      ],
+      "expected": "8632with30kperadmissiondeductible;20620without; riderexampleonly notcombinedbasequote."
+    }
+  ],
+  "health_bronze_room": [
+    {
+      "q": "For Khum Raksa Maojai Extra Bronze, does the ฿1 million annual limit mean a ฿10,000-per-day room is fully covered? What room/food/service limit is printed?",
+      "contains": [
+        "2,500"
+      ],
+      "contains_any": [
+        [
+          "per day",
+          "daily",
+          "a day"
+        ]
+      ],
+      "source_prefixes": [
+        "07_SCB"
+      ],
+      "expected": "No:room/food/hospitalservice2500/day(max365days), separateannualtotal1m; excessnotpromised."
+    }
+  ],
+  "health_deductible_scope": [
+    {
+      "q": "Is Khum Raksa Maojai Extra Bronze's ฿30,000 deductible one amount for the entire year, or per inpatient admission? Does it apply to every benefit?",
+      "contains": [
+        "30,000"
+      ],
+      "contains_any": [
+        [
+          "per admission",
+          "per inpatient admission",
+          "each admission"
+        ]
+      ],
+      "source_prefixes": [
+        "07_SCB"
+      ],
+      "expected": "Perinpatientadmission, onlyspecifiedtablebenefits withlistedexceptions;notallbenefitsnotannualonce.",
+      "absent": [
+        "except minor surgery"
+      ]
+    }
+  ],
+  "health_99_base": [
+    {
+      "q": "If my main life policy ends at age 90, does Khum Raksa Maojai Extra still definitely cover me until 99?",
+      "contains": [
+        "90",
+        "99"
+      ],
+      "contains_any": [
+        [
+          "shorter",
+          "not automatically",
+          "cannot",
+          "whichever comes first",
+          "whichever is earlier"
+        ]
+      ],
+      "source_prefixes": [
+        "07_SCB"
+      ],
+      "expected": "Ridercoverageuntil99orbasepolicytermifshorter,conditional;cannotdefinitelycontinuepastbase90."
+    }
+  ],
+  "health_expensive_quote": [
+    {
+      "q": "I am 22 and want Khum Raksa Maojai Extra. Can you guarantee that the age-35 Bronze annual example of ฿8,632 plus the main policy will fit my ฿12,000 yearly budget?",
+      "contains_any": [
+        [
+          "cannot confirm",
+          "cannot guarantee",
+          "cannot verify"
+        ]
+      ],
+      "absent": [
+        "guaranteed to fit"
+      ],
+      "expected": "Noage22andcombinedquoteverified;costsharing/eligibilityremain;neveruse35exampleascustomerprice."
+    }
+  ],
+  "savings_percentage_basis": [
+    {
+      "q": "Does Khum Aomsook's 150% maturity figure mean I earn a 50% return on all premiums I paid?",
+      "contains_any": [
+        [
+          "sum insured",
+          "insured amount"
+        ]
+      ],
+      "contains_any_unused": [],
+      "source_prefixes": [
+        "09_SCB"
+      ],
+      "expected": "150percentofsuminsured,notIRRonpremiums;greaterofruleandcashreturnfootnoteapply."
+    }
+  ],
+  "savings_total": [
+    {
+      "q": "In Khum Aomsook Plan 1, how much is paid yearly in policy years 1–24, at maturity, and altogether?",
+      "contains": [
+        "1,000",
+        "150,000",
+        "174,000"
+      ],
+      "source_prefixes": [
+        "09_SCB"
+      ],
+      "expected": "1000peryear24years+150000maturity=174000nominaltotal;notannualpremiumorIRR."
+    }
+  ],
+  "savings_death": [
+    {
+      "q": "What are the Khum Aomsook Plan-1 death amounts shown for policy year 8 versus policy year 18? Include the greater-of qualification.",
+      "contains": [
+        "150,000",
+        "200,000"
+      ],
+      "contains_any": [
+        [
+          "greater",
+          "higher",
+          "greatest",
+          "highest"
+        ]
+      ],
+      "source_prefixes": [
+        "09_SCB"
+      ],
+      "expected": "years1-10 150percent/150k vs11-25 200percent/200k orcashsurrendervalue/premiumspaidwhichevergreater."
+    }
+  ],
+  "pension_fixed10": [
+    {
+      "q": "Does Khum Bamnan always require just ten years of premiums, or is that only the male age-45 example for 85/55?",
+      "contains": [
+        "55",
+        "60",
+        "65"
+      ],
+      "contains_any": [
+        [
+          "not",
+          "only",
+          "depends"
+        ]
+      ],
+      "source_prefixes": [
+        "05_SCB"
+      ],
+      "expected": "Tenyearsonlyillustration;payuntilselected55/60/65 notuniversal10years."
+    }
+  ],
+  "pension_age57": [
+    {
+      "q": "For a new 57-year-old customer, which Khum Bamnan variants' published entry-age ranges could apply? Is 85/55 eligible?",
+      "contains": [
+        "85/65",
+        "60"
+      ],
+      "contains_any": [
+        [
+          "not",
+          "outside"
+        ]
+      ],
+      "source_prefixes": [
+        "05_SCB"
+      ],
+      "expected": "85/55entry20-50;85/60entry20-55;85/65entry20-60;57only85/65withinrange,underwritingneeded."
+    }
+  ],
+  "pension_example": [
+    {
+      "q": "What annual premium, total ten-year premiums and total pension receipts are in the male age-45 Khum Bamnan 85/55 example with ฿1 million sum insured?",
+      "contains": [
+        "372,630",
+        "3,726,300",
+        "5,640,000"
+      ],
+      "source_prefixes": [
+        "05_SCB"
+      ],
+      "expected": "Exampleonlyandnominaltotalnotsavingsrateorpersonalquote."
+    }
+  ],
+  "cross_wait": [
+    {
+      "q": "Does CI Plus having a 90-day waiting period prove that Khum Cheeva's CI 50 rider has exactly the same period?",
+      "contains_any": [
+        [
+          "cannot",
+          "does not",
+          "not automatically"
+        ]
+      ],
+      "source_prefixes": [
+        "02_SCB",
+        "11_SCB"
+      ],
+      "expected": "No, donottransferriderwaitingcondition;CI50completetermsnotprovided."
+    }
+  ]
+}

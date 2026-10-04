@@ -1,0 +1,1507 @@
+[
+  {
+    "case": "life_memory",
+    "turn": 1,
+    "question": "I want insurance but don’t know where to start.",
+    "answer": "To suggest suitable products, please tell me your age; monthly or annual premium budget; main goal: life protection, critical illness cash, medical bills, savings or retirement. Budget fit needs a quote matching your profile and requested coverage.",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [],
+      "goal_quote": "",
+      "goal_is_specific": false,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "",
+      "budget_quote": "",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "I want insurance but don’t know where to start.",
+      "missing_details": [
+        "age",
+        "budget",
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "life_memory",
+    "turn": 2,
+    "question": "Age 22, annual premium budget ฿20,000, main goal is life protection.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nFor money to your family on death, compare death benefits and the amount your dependents need. This does not establish payment for every unexpected event.\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\n\nKhum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [14] [15] [16]\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nPlease provide: existing insurance coverage.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "main goal is life protection",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "annual premium budget ฿20,000",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "life_memory",
+    "turn": 3,
+    "question": "I don’t have any existing insurance. I want my family to receive ฿1 million if I die. Can you confirm whether either option fits my ฿20,000 annual budget?",
+    "answer": "From what you told me:\n\n- Age: Age 22\n- Premium budget: annual premium budget ฿20,000\n- Latest goal: main goal is life protection\n- Requested benefit: I want my family to receive ฿1 million if I die\n- Existing insurance: I don’t have any existing insurance\n\nI cannot confirm that either option fits your budget without matching quotes for your age, sex, requested death benefit or other coverage, and selected payment term, including required rider premiums. Please obtain comparable quotes for the options being considered. Premium examples for a different age or benefit amount are not quotes for you.",
+    "mode": "budget_fit",
+    "topic": "price_rank",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "main goal is life protection",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "annual premium budget ฿20,000",
+      "benefit_quote": "I want my family to receive ฿1 million if I die",
+      "existing_coverage_quote": "I don’t have any existing insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "life_memory",
+    "turn": 4,
+    "question": "I have two children. I want them to have money if something happens to me",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nFor money to your family on death, compare death benefits and the amount your dependents need. This does not establish payment for every unexpected event.\nYou said you have no existing insurance.\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\n\nKhum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [14] [15] [16]\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "main goal is life protection",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "annual premium budget ฿20,000",
+      "benefit_quote": "I want my family to receive ฿1 million if I die",
+      "existing_coverage_quote": "I don’t have any existing insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": [
+      "Missing answer fragment: 22",
+      "Missing answer fragment: 20,000",
+      "Missing answer fragment: 1 million",
+      "Missing answer fragment: disabled or ill"
+    ]
+  },
+  {
+    "case": "life_memory",
+    "turn": 5,
+    "question": "What age, budget and protection goal have I given you?",
+    "answer": "From what you told me:\n\n- Age: Age 22\n- Premium budget: annual premium budget ฿20,000\n- Latest goal: main goal is life protection\n- Requested benefit: I want my family to receive ฿1 million if I die",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "main goal is life protection",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Age 22",
+      "budget_quote": "annual premium budget ฿20,000",
+      "benefit_quote": "I want my family to receive ฿1 million if I die",
+      "existing_coverage_quote": "I don’t have any existing insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "goal_changes",
+    "turn": 1,
+    "question": "I'm frugal, just turned 22, and have 1500 baht per month for insurance. Mostly protection please.",
+    "answer": "What kind of protection is the priority: money for family on death, a lump sum for critical illness, or medical bills? A broad protection goal is not enough to choose one product. Budget fit remains unverified until there is a quote for this customer's profile and requested coverage.",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [],
+      "goal_quote": "Mostly protection please.",
+      "goal_is_specific": false,
+      "ambiguous_segment": false,
+      "segment": "cost_sensitive",
+      "segment_quote": "I'm frugal",
+      "age_quote": "just turned 22",
+      "budget_quote": "have 1500 baht per month for insurance",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "goal_changes",
+    "turn": 2,
+    "question": "The hospital bills matter most. No other insurance.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "The hospital bills matter most.",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "cost_sensitive",
+      "segment_quote": "I'm frugal",
+      "age_quote": "just turned 22",
+      "budget_quote": "1500 baht per month for insurance",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No other insurance.",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "goal_changes",
+    "turn": 3,
+    "question": "Does that 1500 have to cover the main policy as well as the health add-on?",
+    "answer": "Yes, if this is your total insurance spending budget, it needs to cover both the main life policy premium and the health rider premium. If you already hold a compatible base policy, check its existing premium and the additional rider cost; do not assume a new base policy is automatically required. Matching quotes are needed to confirm whether the combined premiums fit your budget.\n\nSources:\n[4] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3",
+    "mode": "single",
+    "topic": "combined_premium",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "The hospital bills matter most.",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "cost_sensitive",
+      "segment_quote": "I'm frugal",
+      "age_quote": "just turned 22",
+      "budget_quote": "1500 baht per month for insurance",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No other insurance.",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "goal_changes",
+    "turn": 4,
+    "question": "Actually I would rather get cash if I become seriously ill. Keep the age and budget.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [14] [15] [16]\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "critical_illness"
+      ],
+      "goal_quote": "Actually I would rather get cash if I become seriously ill.",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "cost_sensitive",
+      "segment_quote": "I'm frugal, just turned 22, and have 1500 baht per month for insurance.",
+      "age_quote": "just turned 22",
+      "budget_quote": "have 1500 baht per month for insurance",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No other insurance.",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "goal_changes",
+    "turn": 5,
+    "question": "Correction, I can set aside 24000 baht per year now.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [14] [15] [16]\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "price_rank",
+    "profile": {
+      "goals": [
+        "critical_illness"
+      ],
+      "goal_quote": "Actually I would rather get cash if I become seriously ill.",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "cost_sensitive",
+      "segment_quote": "I'm frugal",
+      "age_quote": "just turned 22",
+      "budget_quote": "I can set aside 24000 baht per year now",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No other insurance.",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "goal_changes",
+    "turn": 6,
+    "question": "Summarise my profile.",
+    "answer": "From what you told me:\n\n- Age: just turned 22\n- Premium budget: I can set aside 24000 baht per year now\n- Latest goal: Actually I would rather get cash if I become seriously ill.",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "critical_illness"
+      ],
+      "goal_quote": "Actually I would rather get cash if I become seriously ill.",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "cost_sensitive",
+      "segment_quote": "I'm frugal",
+      "age_quote": "just turned 22",
+      "budget_quote": "I can set aside 24000 baht per year now",
+      "benefit_quote": "",
+      "existing_coverage_quote": "No other insurance.",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "new_customer",
+    "turn": 1,
+    "question": "I am 22 with 50000 baht yearly and want life cover. I have no existing insurance.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nFor money to your family on death, compare death benefits and the amount your dependents need. This does not establish payment for every unexpected event.\nYou said you have no existing insurance.\n\nKhum Cheeva / คุ้มชีวา (90/10): Life insurance with additional rider options. Coverage: until age 90. Premium payments: 10 years, depending on the variant. [1] [2] [3]\nCI 50 is one eligible attached-rider choice under the brochure's requirements; it is not automatically included in every policy. Base-policy payment and coverage terms do not automatically apply to riders.\n\nKhum Talodcheep CI Plus / คุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): Life and critical illness insurance. Coverage: until age 90. Premium payments: 5, 10, 20 years, depending on the variant. [14] [15] [16]\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "want life cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I am 22",
+      "budget_quote": "50000 baht yearly",
+      "benefit_quote": "",
+      "existing_coverage_quote": "I have no existing insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "new_customer",
+    "turn": 2,
+    "question": "Now this is a different customer. She is 45 and wants hospital bill coverage. Her budget has not been given.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nPlease provide: monthly or annual premium budget, existing insurance coverage.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "wants hospital bill coverage",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "She is 45",
+      "budget_quote": "",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "Now this is a different customer. She is 45 and wants hospital bill coverage.",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "budget",
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "new_customer",
+    "turn": 3,
+    "question": "She has employer health benefits. What else do you need?",
+    "answer": "Extra insurance is not automatically necessary. First check your existing coverage's benefits, limits, exclusions and gaps, including what happens to employer benefits when you leave the job. What are its annual and room limits, and what additional protection do you want? A matching quote is needed before confirming budget fit.\n\nFrom what you told me:\n- Age: She is 45 Please provide your premium budget.",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "wants hospital bill coverage",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "She is 45",
+      "budget_quote": "",
+      "benefit_quote": "",
+      "existing_coverage_quote": "She has employer health benefits",
+      "coverage_status": "current",
+      "new_customer_quote": "",
+      "question_focus": "existing_coverage",
+      "focus_quote": "She has employer health benefits",
+      "missing_details": [
+        "budget"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "new_customer",
+    "turn": 4,
+    "question": "What customer age and budget have I supplied?",
+    "answer": "From what you told me:\n\n- Age: She is 45\n- Premium budget: Not verified from your messages\n- Latest goal: wants hospital bill coverage",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "wants hospital bill coverage",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "She is 45",
+      "budget_quote": "",
+      "benefit_quote": "",
+      "existing_coverage_quote": "She has employer health benefits",
+      "coverage_status": "current",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "budget"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "thai_profile",
+    "turn": 1,
+    "question": "อายุ 22 งบปีละ 20000 ต้องการเงินให้ครอบครัวถ้าเสียชีวิต ไม่มีประกันอยู่แล้ว",
+    "answer": "ตัวเลือกเบื้องต้นตามเป้าหมายที่ระบุ (ยังไม่ใช่การยืนยันว่าอยู่ในงบ):\nสำหรับเป้าหมายเงินให้ครอบครัวเมื่อเสียชีวิต ควรเปรียบเทียบผลประโยชน์เสียชีวิตและทุนประกันที่ต้องการ ไม่ใช่ถือว่าจ่ายทุกเหตุการณ์\nคุณระบุว่ายังไม่มีประกัน\n\nคุ้มชีวา (90/10): ประกันชีวิต พร้อมตัวเลือกสัญญาเพิ่มเติม. คุ้มครองถึงอายุ 90 ปี. ชำระเบี้ย 10 ปี ตามตัวเลือกแผน. [1] [2] [3]\nซีไอ 50 เป็นหนึ่งในตัวเลือกสัญญาเพิ่มเติมตามเงื่อนไข ไม่ได้รวมในทุกแผนโดยอัตโนมัติ ระยะเวลาชำระเบี้ยและความคุ้มครองของสัญญาหลักไม่ควรนำไปใช้กับสัญญาเพิ่มเติมโดยอัตโนมัติ\n\nคุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): ประกันชีวิตและโรคร้ายแรง. คุ้มครองถึงอายุ 90 ปี. ชำระเบี้ย 5, 10, 20 ปี ตามตัวเลือกแผน. [14] [15] [16]\n\nยังไม่มีใบเสนอราคาที่เทียบกันสำหรับลูกค้าคนนี้ จึงยืนยันไม่ได้ว่าแผนใดอยู่ในงบหรือถูกกว่า ระยะเวลาจ่ายเบี้ยที่สั้นกว่าและตัวเลือกจ่ายรายเดือนไม่ได้พิสูจน์ว่าเบี้ยถูกกว่า\nควรเปรียบเทียบใบเสนอราคาด้วยทุนประกันและความคุ้มครองที่ต้องการ รวมเบี้ยสัญญาเพิ่มเติม และตรวจสอบเงื่อนไขการรับประกันภัย\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "ต้องการเงินให้ครอบครัวถ้าเสียชีวิต",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "อายุ 22",
+      "budget_quote": "งบปีละ 20000",
+      "benefit_quote": "",
+      "existing_coverage_quote": "ไม่มีประกันอยู่แล้ว",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "thai_profile",
+    "turn": 2,
+    "question": "อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต แผนไหนอยู่ในงบนี้ไหม",
+    "answer": "จากข้อมูลที่คุณบอก:\n\n- อายุ: อายุ 22\n- งบเบี้ย: งบปีละ 20000\n- เป้าหมายล่าสุด: อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต\n- ผลประโยชน์ที่ต้องการ: ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต\n- ประกันที่มีอยู่: ไม่มีประกันอยู่แล้ว\n\nยังยืนยันไม่ได้ว่าตัวเลือกใดอยู่ในงบ ต้องมีใบเสนอราคาสำหรับอายุ เพศ ทุนประกัน ผลประโยชน์ และระยะเวลาชำระเบี้ยที่ต้องการ รวมเบี้ยสัญญาเพิ่มเติมที่กำหนด ตัวอย่างเบี้ยของลูกค้าคนละอายุหรือทุนประกันไม่ใช่ใบเสนอราคาของคุณ",
+    "mode": "budget_fit",
+    "topic": "price_rank",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "อายุ 22",
+      "budget_quote": "งบปีละ 20000",
+      "benefit_quote": "ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต",
+      "existing_coverage_quote": "ไม่มีประกันอยู่แล้ว",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "thai_profile",
+    "turn": 3,
+    "question": "เปลี่ยนงบเป็นเดือนละ 1000 บาท แต่อายุและเป้าหมายเหมือนเดิม",
+    "answer": "ตัวเลือกเบื้องต้นตามเป้าหมายที่ระบุ (ยังไม่ใช่การยืนยันว่าอยู่ในงบ):\nสำหรับเป้าหมายเงินให้ครอบครัวเมื่อเสียชีวิต ควรเปรียบเทียบผลประโยชน์เสียชีวิตและทุนประกันที่ต้องการ ไม่ใช่ถือว่าจ่ายทุกเหตุการณ์\nคุณระบุว่ายังไม่มีประกัน\n\nคุ้มชีวา (90/10): ประกันชีวิต พร้อมตัวเลือกสัญญาเพิ่มเติม. คุ้มครองถึงอายุ 90 ปี. ชำระเบี้ย 10 ปี ตามตัวเลือกแผน. [1] [2] [3]\nซีไอ 50 เป็นหนึ่งในตัวเลือกสัญญาเพิ่มเติมตามเงื่อนไข ไม่ได้รวมในทุกแผนโดยอัตโนมัติ ระยะเวลาชำระเบี้ยและความคุ้มครองของสัญญาหลักไม่ควรนำไปใช้กับสัญญาเพิ่มเติมโดยอัตโนมัติ\n\nคุ้มตลอดชีพ ซีไอ พลัส (90/5, 90/10, 90/20): ประกันชีวิตและโรคร้ายแรง. คุ้มครองถึงอายุ 90 ปี. ชำระเบี้ย 5, 10, 20 ปี ตามตัวเลือกแผน. [14] [15] [16]\n\nยังไม่มีใบเสนอราคาที่เทียบกันสำหรับลูกค้าคนนี้ จึงยืนยันไม่ได้ว่าแผนใดอยู่ในงบหรือถูกกว่า ระยะเวลาจ่ายเบี้ยที่สั้นกว่าและตัวเลือกจ่ายรายเดือนไม่ได้พิสูจน์ว่าเบี้ยถูกกว่า\nควรเปรียบเทียบใบเสนอราคาด้วยทุนประกันและความคุ้มครองที่ต้องการ รวมเบี้ยสัญญาเพิ่มเติม และตรวจสอบเงื่อนไขการรับประกันภัย\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[14] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[15] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[16] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "recommendation",
+    "topic": "price_rank",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "cost_sensitive",
+      "segment_quote": "เปลี่ยนงบเป็นเดือนละ 1000 บาท",
+      "age_quote": "อายุ 22",
+      "budget_quote": "เปลี่ยนงบเป็นเดือนละ 1000 บาท",
+      "benefit_quote": "อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต",
+      "existing_coverage_quote": "ไม่มีประกันอยู่แล้ว",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "thai_profile",
+    "turn": 4,
+    "question": "สรุปข้อมูลของฉัน",
+    "answer": "จากข้อมูลที่คุณบอก:\n\n- อายุ: อายุ 22\n- งบเบี้ย: เปลี่ยนงบเป็นเดือนละ 1000 บาท\n- เป้าหมายล่าสุด: อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต\n- ผลประโยชน์ที่ต้องการ: อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "life"
+      ],
+      "goal_quote": "อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "อายุ 22",
+      "budget_quote": "เปลี่ยนงบเป็นเดือนละ 1000 บาท",
+      "benefit_quote": "อยากให้ครอบครัวได้รับเงิน 1 ล้านบาทถ้าเสียชีวิต",
+      "existing_coverage_quote": "ไม่มีประกันอยู่แล้ว",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "medium_mass",
+    "turn": 1,
+    "question": "What would you suggest for medium mass customers?",
+    "answer": "To suggest suitable products, please tell me your age; monthly or annual premium budget; main goal: life protection, critical illness cash, medical bills, savings or retirement. Budget fit needs a quote matching your profile and requested coverage.",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [],
+      "goal_quote": "",
+      "goal_is_specific": false,
+      "ambiguous_segment": false,
+      "segment": "other",
+      "segment_quote": "medium mass customers",
+      "age_quote": "",
+      "budget_quote": "",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "What would you suggest for medium mass customers?",
+      "missing_details": [
+        "age",
+        "budget",
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "high_mass",
+    "turn": 1,
+    "question": "I need recommendations for high mass customers",
+    "answer": "To suggest suitable products, please tell me your age; monthly or annual premium budget; main goal: life protection, critical illness cash, medical bills, savings or retirement. Budget fit needs a quote matching your profile and requested coverage.",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [],
+      "goal_quote": "",
+      "goal_is_specific": false,
+      "ambiguous_segment": false,
+      "segment": "other",
+      "segment_quote": "high mass customers",
+      "age_quote": "",
+      "budget_quote": "",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "age",
+        "budget",
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "wealthy",
+    "turn": 1,
+    "question": "She is wealthy. What insurance is best?",
+    "answer": "To suggest suitable products, please tell me your age; monthly or annual premium budget; main goal: life protection, critical illness cash, medical bills, savings or retirement. Budget fit needs a quote matching your profile and requested coverage.",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [],
+      "goal_quote": "What insurance is best?",
+      "goal_is_specific": false,
+      "ambiguous_segment": false,
+      "segment": "other",
+      "segment_quote": "She is wealthy",
+      "age_quote": "",
+      "budget_quote": "",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "What insurance is best?",
+      "missing_details": [
+        "age",
+        "budget",
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "poor",
+    "turn": 1,
+    "question": "I'm poor and 22, need hosp cover, 12000 baht a year",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nPlease provide: existing insurance coverage.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "need hosp cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "cost_sensitive",
+      "segment_quote": "I'm poor",
+      "age_quote": "22",
+      "budget_quote": "12000 baht a year",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "employer_changes",
+    "turn": 1,
+    "question": "I am 30, can spend 30000 yearly, want hospital cover, and have no insurance.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou said you have no existing insurance.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "want hospital cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I am 30",
+      "budget_quote": "can spend 30000 yearly",
+      "benefit_quote": "",
+      "existing_coverage_quote": "have no insurance",
+      "coverage_status": "none",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "employer_changes",
+    "turn": 2,
+    "question": "My employer now covers hospital bills. Do I need more insurance?",
+    "answer": "Extra insurance is not automatically necessary. First check your existing coverage's benefits, limits, exclusions and gaps, including what happens to employer benefits when you leave the job. What are its annual and room limits, and what additional protection do you want? A matching quote is needed before confirming budget fit.\n\nFrom what you told me:\n- Age: I am 30\n- Premium budget: can spend 30000 yearly",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "want hospital cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I am 30",
+      "budget_quote": "can spend 30000 yearly",
+      "benefit_quote": "",
+      "existing_coverage_quote": "My employer now covers hospital bills",
+      "coverage_status": "current",
+      "new_customer_quote": "",
+      "question_focus": "existing_coverage",
+      "focus_quote": "My employer now covers hospital bills. Do I need more insurance?",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "employer_changes",
+    "turn": 3,
+    "question": "I left that company, so I have no cover now. Keep my age and budget.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\nYou have described your insurance situation. If you have existing coverage, check its benefits, limits and gaps before adding insurance. Extra insurance is not automatically necessary.\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "want hospital cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I am 30",
+      "budget_quote": "can spend 30000 yearly",
+      "benefit_quote": "",
+      "existing_coverage_quote": "My employer now covers hospital bills",
+      "coverage_status": "current",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": [
+      "profile.coverage_status: expected none, got current"
+    ]
+  },
+  {
+    "case": "employer_changes",
+    "turn": 4,
+    "question": "What age, budget and goal have I told you?",
+    "answer": "From what you told me:\n\n- Age: I am 30\n- Premium budget: can spend 30000 yearly\n- Latest goal: want hospital cover",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "want hospital cover",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I am 30",
+      "budget_quote": "can spend 30000 yearly",
+      "benefit_quote": "",
+      "existing_coverage_quote": "My employer now covers hospital bills",
+      "coverage_status": "current",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": []
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_split",
+    "turn": 1,
+    "question": "I am interested in Khum Cheeva.",
+    "answer": "Lead collection: please provide your name, occupation, income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva"
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_split",
+    "turn": 2,
+    "question": "Test Alpha, student",
+    "answer": "Lead collection: please provide your income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva",
+      "name": {
+        "value": "Test Alpha",
+        "quote": "Test Alpha"
+      },
+      "occupation": {
+        "value": "student",
+        "quote": "student"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_split",
+    "turn": 3,
+    "question": "My premium budget is 20000 per year.",
+    "answer": "Lead collection: please provide your income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva",
+      "name": {
+        "value": "Test Alpha",
+        "quote": "Test Alpha"
+      },
+      "occupation": {
+        "value": "student",
+        "quote": "student"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_split",
+    "turn": 4,
+    "question": "My income is 8000 baht monthly. My contact number is 123.",
+    "answer": "Please check your contact number and resend it (8–15 digits).",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva",
+      "name": {
+        "value": "Test Alpha",
+        "quote": "Test Alpha"
+      },
+      "occupation": {
+        "value": "student",
+        "quote": "student"
+      },
+      "income": {
+        "value": "8000 baht monthly",
+        "quote": "My income is 8000 baht monthly"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_split",
+    "turn": 5,
+    "question": "My phone number is 0800000000.",
+    "answer": "Your lead details have been saved to the local database. This records your interest; it is not an insurance application or confirmation of coverage.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva",
+      "name": {
+        "value": "Test Alpha",
+        "quote": "Test Alpha"
+      },
+      "occupation": {
+        "value": "student",
+        "quote": "student"
+      },
+      "income": {
+        "value": "8000 baht monthly",
+        "quote": "My income is 8000 baht monthly"
+      },
+      "contact_number": {
+        "value": "0800000000",
+        "quote": "My phone number is 0800000000"
+      }
+    },
+    "lead_active": false,
+    "lead_saved": true,
+    "saved": [
+      {
+        "lead_id": "31735050-005b-54e9-8ea8-0b44743d5f2b",
+        "session_id": "variation-leads_split",
+        "product_id": "cheeva",
+        "name": "Test Alpha",
+        "occupation": "student",
+        "income": "8000 baht monthly",
+        "contact_number": "0800000000",
+        "evidence": {
+          "name": "Test Alpha",
+          "occupation": "student",
+          "income": "My income is 8000 baht monthly",
+          "contact_number": "My phone number is 0800000000",
+          "product": "Khum Cheeva"
+        }
+      }
+    ],
+    "issues": []
+  },
+  {
+    "case": "leads_thai",
+    "turn": 1,
+    "question": "สนใจคุ้มออมสุข",
+    "answer": "เข้าสู่โหมดเก็บข้อมูลผู้สนใจ กรุณาระบุ ชื่อ, อาชีพ, รายได้ พร้อมสกุลเงินและระบุรายเดือนหรือรายปี, เบอร์ติดต่อ เพื่อบันทึกในฐานข้อมูลภายใน พิมพ์ /cancel-lead เพื่อยกเลิก",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "aomsook",
+      "product_quote": "คุ้มออมสุข"
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_thai",
+    "turn": 2,
+    "question": "ชื่อ ลูกค้าทดสอบ ทำงานครู รายได้ 30000 บาทต่อเดือน โทร 0800000001",
+    "answer": "บันทึกข้อมูลผู้สนใจในฐานข้อมูลภายในแล้ว การบันทึกนี้ไม่ใช่การสมัครหรือยืนยันรับประกันภัย",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "aomsook",
+      "product_quote": "คุ้มออมสุข",
+      "name": {
+        "value": "ลูกค้าทดสอบ",
+        "quote": "ชื่อ ลูกค้าทดสอบ"
+      },
+      "occupation": {
+        "value": "ครู",
+        "quote": "ทำงานครู"
+      },
+      "income": {
+        "value": "30000 บาทต่อเดือน",
+        "quote": "รายได้ 30000 บาทต่อเดือน"
+      },
+      "contact_number": {
+        "value": "0800000001",
+        "quote": "โทร 0800000001"
+      }
+    },
+    "lead_active": false,
+    "lead_saved": true,
+    "saved": [
+      {
+        "lead_id": "d6d5a03a-f347-5836-86a7-f65573c9f91e",
+        "session_id": "variation-leads_thai",
+        "product_id": "aomsook",
+        "name": "ลูกค้าทดสอบ",
+        "occupation": "ครู",
+        "income": "30000 บาทต่อเดือน",
+        "contact_number": "0800000001",
+        "evidence": {
+          "name": "ชื่อ ลูกค้าทดสอบ",
+          "occupation": "ทำงานครู",
+          "income": "รายได้ 30000 บาทต่อเดือน",
+          "contact_number": "โทร 0800000001",
+          "product": "คุ้มออมสุข"
+        }
+      }
+    ],
+    "issues": []
+  },
+  {
+    "case": "leads_correction",
+    "turn": 1,
+    "question": "I am interested in Khum Talodcheep CI Plus.",
+    "answer": "Lead collection: please provide your name, occupation, income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "ci_plus",
+      "product_quote": "Khum Talodcheep CI Plus"
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_correction",
+    "turn": 2,
+    "question": "My name is Test Beta. I am a developer and earn 40000 baht a month.",
+    "answer": "Lead collection: please provide your contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "ci_plus",
+      "product_quote": "Khum Talodcheep CI Plus",
+      "name": {
+        "value": "Test Beta",
+        "quote": "My name is Test Beta"
+      },
+      "occupation": {
+        "value": "developer",
+        "quote": "I am a developer"
+      },
+      "income": {
+        "value": "40000 baht a month",
+        "quote": "earn 40000 baht a month"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_correction",
+    "turn": 3,
+    "question": "Correction, my income is 30000 baht per month.",
+    "answer": "Lead collection: please provide your contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "ci_plus",
+      "product_quote": "Khum Talodcheep CI Plus",
+      "name": {
+        "value": "Test Beta",
+        "quote": "My name is Test Beta"
+      },
+      "occupation": {
+        "value": "developer",
+        "quote": "I am a developer"
+      },
+      "income": {
+        "value": "30000 baht per month",
+        "quote": "Correction, my income is 30000 baht per month"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_correction",
+    "turn": 4,
+    "question": "What happens after a full severe illness payout?",
+    "answer": "After a full payout for a severe illness under the คุ้มตลอดชีพ ซีไอ พลัส (Khum Talodcheep CI Plus) policy, the policy will terminate. This means the coverage ends once the insurer has paid the full sum-insured benefit for the severe illness. Additionally, any death and maturity benefits will be reduced by the amount already paid for early-stage critical illness benefits, if applicable. Therefore, the policy does not continue after a full severe illness payout.\n\nSources:\n[4] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2",
+    "mode": "single",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "ci_plus",
+      "product_quote": "Khum Talodcheep CI Plus",
+      "name": {
+        "value": "Test Beta",
+        "quote": "My name is Test Beta"
+      },
+      "occupation": {
+        "value": "developer",
+        "quote": "I am a developer"
+      },
+      "income": {
+        "value": "30000 baht per month",
+        "quote": "Correction, my income is 30000 baht per month"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_correction",
+    "turn": 5,
+    "question": "My contact number is +66 80 000 0002",
+    "answer": "Your lead details have been saved to the local database. This records your interest; it is not an insurance application or confirmation of coverage.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "ci_plus",
+      "product_quote": "Khum Talodcheep CI Plus",
+      "name": {
+        "value": "Test Beta",
+        "quote": "My name is Test Beta"
+      },
+      "occupation": {
+        "value": "developer",
+        "quote": "I am a developer"
+      },
+      "income": {
+        "value": "30000 baht per month",
+        "quote": "Correction, my income is 30000 baht per month"
+      },
+      "contact_number": {
+        "value": "+66 80 000 0002",
+        "quote": "My contact number is +66 80 000 0002"
+      }
+    },
+    "lead_active": false,
+    "lead_saved": true,
+    "saved": [
+      {
+        "lead_id": "d740824b-e608-5627-9753-cedf0fb7ceac",
+        "session_id": "variation-leads_correction",
+        "product_id": "ci_plus",
+        "name": "Test Beta",
+        "occupation": "developer",
+        "income": "30000 baht per month",
+        "contact_number": "+66 80 000 0002",
+        "evidence": {
+          "name": "My name is Test Beta",
+          "occupation": "I am a developer",
+          "income": "Correction, my income is 30000 baht per month",
+          "contact_number": "My contact number is +66 80 000 0002",
+          "product": "Khum Talodcheep CI Plus"
+        }
+      }
+    ],
+    "issues": []
+  },
+  {
+    "case": "leads_cancel",
+    "turn": 1,
+    "question": "I am interested in Khum Cheeva.",
+    "answer": "Lead collection: please provide your name, occupation, income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva"
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_cancel",
+    "turn": 2,
+    "question": "My name is Test Gamma and I am a student.",
+    "answer": "Lead collection: please provide your income amount (and currency/monthly or yearly frequency), contact number. These details will be saved to the local database when complete. Type /cancel-lead to cancel.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {
+      "product_id": "cheeva",
+      "product_quote": "Khum Cheeva",
+      "name": {
+        "value": "Test Gamma",
+        "quote": "My name is Test Gamma"
+      },
+      "occupation": {
+        "value": "student",
+        "quote": "I am a student"
+      }
+    },
+    "lead_active": true,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_cancel",
+    "turn": 3,
+    "question": "I don't want to share my phone number. Cancel this.",
+    "answer": "Lead collection cancelled. Incomplete details were not saved.",
+    "mode": "lead_interest",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "leads_cancel",
+    "turn": 4,
+    "question": "What are the benefits of Khum Cheeva?",
+    "answer": "The Khum Cheeva (คุ้มชีวา) insurance plan provides long-term life coverage until age 90 with a premium payment period of 10 years. It offers protection against life risks, accidents, and critical illnesses including cancer. The plan allows you to select additional coverage riders for accident insurance (such as ADD Plus), critical illness insurance (CI 50), or cancer protection, either individually or combined, to enhance your coverage. Benefits include a death benefit of 100% of the sum insured, critical illness payouts for early and severe stages, cancer benefits for non-invasive and invasive stages, and outpatient treatment coverage for chemotherapy and radiotherapy. The plan also offers tax benefits with deductions up to 100,000 THB according to the Revenue Department's criteria. Premium payment options include monthly, semi-annual, or annual payments to suit your needs. Note that the plan requires attaching eligible riders with minimum sums insured depending on the base sum insured amount. The exact benefit amounts and premiums depend on your age, sex, plan choice, and sum insured selected. Please refer to the detailed examples for a 40-year-old male in the brochure for specific benefit amounts and premiums.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3",
+    "mode": "single",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "negated_interest",
+    "turn": 1,
+    "question": "I am not interested in Khum Cheeva. Just tell me the difference from CI Plus.",
+    "answer": "The main differences between คุ้มชีวา (Khum Cheeva) and คุ้มตลอดชีพ ซีไอ พลัส (CI Plus) are as follows:\n\n1. Coverage and Benefits:\n- Khum Cheeva is a whole life insurance plan with coverage until age 90 and a 10-year premium payment term. It provides life coverage and requires attachment of additional riders such as accident insurance, critical illness (CI 50), or cancer coverage riders. The CI 50 rider covers 50 critical illnesses but is not automatically included; it is one of several eligible riders that must be attached depending on the sum insured.\n- CI Plus integrates life and critical illness coverage in one plan, covering life and 15 specified severe critical illnesses plus 4 early-stage critical illnesses. It offers coverage until age 90 with flexible premium payment terms of 5, 10, or 20 years. Upon diagnosis of one of the 4 early-stage illnesses, the insured receives 25% of the sum insured, premium payments are waived, and coverage continues. For the 15 severe illnesses, a lump sum of 100% of the sum insured (less any early-stage benefit paid) or total premiums paid (less early-stage benefit) is paid.\n\n2. Premium Payment Terms:\n- Khum Cheeva has a fixed 10-year premium payment period.\n- CI Plus offers more flexibility with 5, 10, or 20-year premium payment options.\n\n3. Rider Requirements:\n- Khum Cheeva requires attachment of eligible riders (accident, CI 50, or cancer riders) with minimum sums insured depending on the base sum insured.\n- CI Plus is a combined product with integrated critical illness coverage and does not require separate riders.\n\n4. Waiting Period and Exclusions:\n- CI Plus has a 90-day waiting period for critical illness coverage and specific exclusions such as suicide, self-harm, HIV/AIDS, and conditions related to substance abuse.\n- Khum Cheeva's rider conditions, including waiting periods and exclusions, are not fully detailed in the provided documents.\n\nIn summary, Khum Cheeva is a base whole life policy requiring additional riders for critical illness and accident coverage, with a fixed 10-year premium term, while CI Plus is a combined life and critical illness plan with flexible premium terms and integrated critical illness benefits including early-stage illness coverage and premium waiver upon early-stage diagnosis.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1\n[2] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 2\n[3] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 3\n[4] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1\n[5] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2\n[6] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 3",
+    "mode": "single",
+    "topic": "general",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "informational_interest",
+    "turn": 1,
+    "question": "If I am interested in Khum Cheeva, what information would you need?",
+    "answer": "To suggest suitable products, please tell me your age; monthly or annual premium budget; main goal: life protection, critical illness cash, medical bills, savings or retirement. Budget fit needs a quote matching your profile and requested coverage.",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [],
+      "goal_quote": "",
+      "goal_is_specific": false,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "",
+      "budget_quote": "",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "If I am interested in Khum Cheeva, what information would you need?",
+      "missing_details": [
+        "age",
+        "budget",
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "price_ten_twenty",
+    "turn": 1,
+    "question": "For CI Plus Plan 1, compare the brochure annual premiums for ten-year versus twenty-year payments.",
+    "answer": "A shorter payment period does not mean a cheaper yearly premium. In the CI Plus brochure's example for a 35-year-old male, Plan 1, sum insured THB 200,000, the annual-payment premium is THB 13,000 for ten-year payments versus THB 7,200 for twenty-year payments. Ten-year payments cost more per year in this example. These are not quotes for your customer and do not establish a universal ranking for all ages or products.\n\nSources:\n[2] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2",
+    "mode": "all_products",
+    "topic": "payment_price",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "price_five_twenty",
+    "turn": 1,
+    "question": "Would paying premiums over five years be cheaper per year than twenty years?",
+    "answer": "A shorter payment period does not by itself mean a cheaper yearly premium. Which product and plan do you mean? Compare matching quotes for the same customer, benefit amount and coverage under the selected payment terms before concluding which costs less per year.",
+    "mode": "single",
+    "topic": "payment_price",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "short_numeric_quotes",
+    "turn": 1,
+    "question": "I am 22, budget 22000 baht yearly, want medical insurance.",
+    "answer": "Candidates to compare for your stated goal; affordability is not yet verified:\n\nKhum Raksa Maojai Extra / คุ้มรักษา เหมาจ่าย เอ็กซ์ตร้า (Extra): Health insurance rider; benefits depend on the selected plan. Coverage: until age 99, or the base life policy's coverage term if shorter, subject to conditions. The brochure does not specify a fixed number of premium-payment years. [8] [9] [10] [11]\nThis is a health rider: check the eligible base life policy and its premium as part of the total cost.\nNo comparable quotes for this customer have been verified, so I cannot confirm that any candidate fits the budget or costs less. Shorter payment periods and monthly payment options do not establish affordability.\nPlease provide: existing insurance coverage.\nNext, compare quotes for the requested benefit amounts and coverage, including rider premiums, and check underwriting eligibility.\n\nSources:\n[8] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 1\n[9] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 2\n[10] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 3\n[11] 07_SCB-InsureX_Khum-Raksa-Maojai-Extra_180669.pdf, page 4",
+    "mode": "recommendation",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "want medical insurance",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "I am 22",
+      "budget_quote": "budget 22000 baht yearly",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "short_numeric_quotes",
+    "turn": 2,
+    "question": "Actually the customer is age 33, with 22000 baht each year.",
+    "answer": "From what you told me:\n\n- Age: Actually the customer is age 33\n- Premium budget: with 22000 baht each year\n- Latest goal: want medical insurance",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "want medical insurance",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Actually the customer is age 33",
+      "budget_quote": "with 22000 baht each year",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "short_numeric_quotes",
+    "turn": 3,
+    "question": "Recall my profile",
+    "answer": "From what you told me:\n\n- Age: Actually the customer is age 33\n- Premium budget: with 22000 baht each year\n- Latest goal: want medical insurance",
+    "mode": "profile_recall",
+    "topic": "general",
+    "profile": {
+      "goals": [
+        "medical"
+      ],
+      "goal_quote": "want medical insurance",
+      "goal_is_specific": true,
+      "ambiguous_segment": false,
+      "segment": "unknown",
+      "segment_quote": "",
+      "age_quote": "Actually the customer is age 33",
+      "budget_quote": "with 22000 baht each year",
+      "benefit_quote": "",
+      "existing_coverage_quote": "",
+      "coverage_status": "unknown",
+      "new_customer_quote": "",
+      "question_focus": "general",
+      "focus_quote": "",
+      "missing_details": [
+        "existing_coverage"
+      ]
+    },
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  }
+]

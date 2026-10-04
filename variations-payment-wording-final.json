@@ -1,0 +1,72 @@
+[
+  {
+    "case": "age_not_payment",
+    "turn": 1,
+    "question": "For CI Plus Plan 2, a 35-year-old male asks about five-year and twenty-year annual-payment premiums in the brochure. Compare the example.",
+    "answer": "A shorter payment period does not mean a cheaper yearly premium. In the CI Plus brochure's example for a 35-year-old male, Plan 2, sum insured THB 500,000, the annual-payment premium is THB 63,500 for five-year payments versus THB 18,000 for twenty-year payments. Five-year payments cost more per year in this example. These are not quotes for your customer and do not establish a universal ranking for all ages or products.\n\nSources:\n[2] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2",
+    "mode": "all_products",
+    "topic": "payment_price",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "three_options",
+    "turn": 1,
+    "question": "For CI Plus Plan 4 in the male age-35 example, compare five-, ten- and twenty-year annual-payment premiums.",
+    "answer": "CI Plus brochure example only: male age 35, Plan 4, sum insured THB 1,000,000. Annual-payment premiums: 5-year payments: THB 127,000; 10-year payments: THB 65,000; 20-year payments: THB 36,000. These are not customer quotes and do not verify affordability. Monthly installments have a different annual total.\n\nSources:\n[2] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2",
+    "mode": "all_products",
+    "topic": "payment_price",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "thai_options",
+    "turn": 1,
+    "question": "ซีไอ พลัส แผน 2 ตัวอย่างชายอายุ 35 ปี เปรียบเทียบเบี้ยรายปีแบบชำระ 5 ปี กับ 20 ปี",
+    "answer": "ตัวอย่างซีไอ พลัส ชายอายุ 35 ปี แผน 2 ทุนประกัน 500,000 บาท: ชำระเบี้ย 5 ปี มีเบี้ยรายปี 63,500 บาท เทียบกับชำระเบี้ย 20 ปี มีเบี้ยรายปี 18,000 บาท ตัวอย่างนี้แบบชำระ 5 ปีมีเบี้ยต่อปีสูงกว่า ตัวเลขนี้ไม่ใช่ใบเสนอราคาสำหรับลูกค้าของคุณ และไม่ยืนยันผลสำหรับทุกผลิตภัณฑ์หรือทุกอายุ\n\nSources:\n[2] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 2",
+    "mode": "all_products",
+    "topic": "payment_price",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "invalid_cheeva_options",
+    "turn": 1,
+    "question": "For Khum Cheeva, compare five-year and twenty-year premium payments.",
+    "answer": "The brochure lists 10 premium-payment years for the Khum Cheeva base policy. Some requested payment options are not listed, so I cannot compare premiums for those options. Base-policy terms do not establish rider payment terms.\n\nSources:\n[1] 02_SCB-InsureX_Khum-Cheeva_90-10_180669.pdf, page 1",
+    "mode": "all_products",
+    "topic": "payment_price",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  },
+  {
+    "case": "invalid_ci_options",
+    "turn": 1,
+    "question": "For CI Plus, compare five-year and fifteen-year premium payment options.",
+    "answer": "The brochure lists 5, 10, 20 premium-payment years for the Khum Talodcheep CI Plus base policy. Some requested payment options are not listed, so I cannot compare premiums for those options. Base-policy terms do not establish rider payment terms.\n\nSources:\n[1] 11_SCB-InsureX_Khum-Talodcheep-CI-Plus_90-5_90-10_90-20_180669.pdf, page 1",
+    "mode": "all_products",
+    "topic": "payment_price",
+    "profile": {},
+    "lead_draft": {},
+    "lead_active": false,
+    "lead_saved": false,
+    "saved": [],
+    "issues": []
+  }
+]

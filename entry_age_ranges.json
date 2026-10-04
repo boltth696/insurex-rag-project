@@ -1,0 +1,10 @@
+{
+  "review_note": "Published entry ages visually checked against the source tables. Base-policy age ranges do not prove attached-rider eligibility or underwriting acceptance. For infant policies, the actual printed minimum is one month and one day; integer age zero is deliberately not assessed here.",
+  "products": [
+    {"product_id":"cheeva","page":3,"variants":[{"plan":"90/10","min_years":0,"max_years":70}]},
+    {"product_id":"bamnan","page":4,"variants":[{"plan":"85/55","min_years":20,"max_years":50},{"plan":"85/60","min_years":20,"max_years":55},{"plan":"85/65","min_years":20,"max_years":60}]},
+    {"product_id":"raksa","page":4,"variants":[{"plan":"Extra","min_years":11,"max_years":75}]},
+    {"product_id":"aomsook","page":2,"variants":[{"plan":"25/15","min_years":0,"max_years":60}]},
+    {"product_id":"ci_plus","page":3,"variants":[{"plan":"90/5","min_years":16,"max_years":60},{"plan":"90/10","min_years":16,"max_years":60},{"plan":"90/20","min_years":16,"max_years":55}]}
+  ]
+}
